@@ -11,6 +11,9 @@ const els = {
   resetBtn: document.getElementById("resetBtn"),
   guessBoard: document.getElementById("guessBoard"),
   status: document.getElementById("status"),
+  questionTitle: document.getElementById("questionTitle"),
+  questionText: document.getElementById("questionText"),
+  questionHints: document.getElementById("questionHints"),
   targetInfo: document.getElementById("targetInfo"),
   mapStatus: document.getElementById("mapStatus"),
   mapView: document.getElementById("mapView"),
@@ -66,9 +69,43 @@ function setMode(mode, random = false) {
   renderOptions();
   renderBoard();
   renderStatus();
+  renderQuestion();
   renderTargetInfo();
   renderMap();
   renderAtlas();
+}
+
+function renderQuestion() {
+  if (!game.target) {
+    return;
+  }
+
+  const clueItems = game.mode === "state"
+    ? [
+        `Region: ${game.target.region}`,
+        `Capital starts with: ${game.target.capital.charAt(0)}`,
+        `Primary language starts with: ${game.target.language.charAt(0)}`,
+        `Area band: ${game.target.areaKm2 > 200000 ? "Very Large" : game.target.areaKm2 > 70000 ? "Medium" : "Compact"}`,
+        `Coastal: ${game.target.coastal ? "Yes" : "No"}`
+      ]
+    : [
+        `Parent state: ${game.target.state}`,
+        `Region: ${game.target.region}`,
+        `Headquarters starts with: ${game.target.headquarters.charAt(0)}`,
+        `Area band: ${game.target.areaKm2 > 8000 ? "Large" : game.target.areaKm2 > 2500 ? "Medium" : "Compact"}`,
+        `Population band: ${game.target.population > 4000000 ? "Very High" : game.target.population > 1500000 ? "High" : "Moderate"}`
+      ];
+
+  const visibleClues = game.won || game.guesses.length >= MAX_GUESSES
+    ? clueItems
+    : clueItems.slice(0, Math.min(2 + Math.floor(game.guesses.length / 2), clueItems.length));
+
+  els.questionTitle.textContent = game.mode === "state" ? "Today's Question: Which State or UT is this?" : "Today's Question: Which District is this?";
+  els.questionText.textContent = game.mode === "state"
+    ? "Use clues, map distance hints, and comparative stats to identify the hidden State or UT."
+    : "Use clues, parent-state hints, and distance direction feedback to identify the hidden district.";
+
+  els.questionHints.innerHTML = visibleClues.map((clue) => `<li>${clue}</li>`).join("");
 }
 
 function initMap() {
@@ -338,6 +375,7 @@ function makeGuess() {
   els.guessInput.value = "";
   renderBoard();
   renderStatus();
+  renderQuestion();
   renderTargetInfo();
   renderMap();
 }
