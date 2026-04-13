@@ -17,6 +17,7 @@ const els = {
   questionTitle: document.getElementById("questionTitle"),
   questionText: document.getElementById("questionText"),
   questionVisual: document.getElementById("questionVisual"),
+  questionMapView: document.getElementById("questionMapView"),
   questionHints: document.getElementById("questionHints"),
   targetInfo: document.getElementById("targetInfo"),
   mapStatus: document.getElementById("mapStatus"),
@@ -60,6 +61,8 @@ const game = {
 let leafletMap;
 let guessLayer;
 let targetLayer;
+let clueMap;
+let clueLayer;
 
 function hashString(value) {
   let hash = 2166136261;
@@ -127,6 +130,7 @@ function setMode(mode) {
   renderBoard();
   renderStatus();
   renderQuestion();
+  renderQuestionMap();
   renderVisibility();
   renderTargetInfo();
   renderMap();
@@ -275,22 +279,51 @@ function renderQuestion() {
 
   const visibleCount = game.won || game.guesses.length >= MAX_GUESSES ? clues.length : Math.min(clues.length, 2 + Math.floor(game.guesses.length / 2));
   els.questionHints.innerHTML = clues.slice(0, visibleCount).map((c) => `<li>${c}</li>`).join("");
+}
 
-  if (game.mode === "world") {
-    els.questionVisual.innerHTML = `
-      <div class="question-clue">
-        ${game.target.flagPng ? `<img class="flag" src="${game.target.flagPng}" alt="Country clue flag"/>` : ""}
-        <span>Country visual clue</span>
-        ${game.target.mapUrl ? `<a class="question-map-link" target="_blank" rel="noreferrer" href="${game.target.mapUrl}">Open clue map</a>` : ""}
-      </div>`;
-  } else {
-    const mapLink = `https://www.openstreetmap.org/?mlat=${game.target.lat}&mlon=${game.target.lon}#map=6/${game.target.lat}/${game.target.lon}`;
-    els.questionVisual.innerHTML = `
-      <div class="question-clue">
-        <span>Map clue for this ${game.mode}</span>
-        <a class="question-map-link" target="_blank" rel="noreferrer" href="${mapLink}">Open clue map</a>
-      </div>`;
+function renderQuestionMap() {
+  if (!leafletMap && !clueMap && !window.L) return;
+
+  if (!clueMap && window.L && els.questionMapView) {
+    clueMap = L.map(els.questionMapView, {
+      center: game.mode === "world" ? [20, 0] : [22.6, 79.5],
+      zoom: game.mode === "world" ? 2 : 4,
+      minZoom: 2,
+      maxZoom: 8,
+      zoomControl: false,
+      attributionControl: false,
+      dragging: false,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      keyboard: false,
+      tap: false,
+      touchZoom: false
+    });
+
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
+      maxZoom: 19,
+      attribution: ''
+    }).addTo(clueMap);
+
+    clueLayer = L.layerGroup().addTo(clueMap);
   }
+
+  if (!clueMap) return;
+
+  clueLayer.clearLayers();
+
+  const center = game.mode === "world" ? [20, 0] : game.mode === "district" ? [game.target.lat, game.target.lon] : [game.target.lat, game.target.lon];
+  const zoom = game.mode === "world" ? 2 : game.mode === "district" ? 5 : 4;
+  clueMap.setView(center, zoom);
+
+  L.circleMarker([game.target.lat, game.target.lon], {
+    radius: 8,
+    color: "#ff4d4d",
+    weight: 3,
+    fillColor: "#ff8a8a",
+    fillOpacity: 0.95
+  }).addTo(clueLayer);
 }
 
 function renderTargetInfo() {
@@ -351,7 +384,7 @@ function renderTargetInfo() {
 function renderMap() {
   if (!leafletMap && window.L && els.mapView) {
     leafletMap = L.map(els.mapView, { center: [22.6, 79.5], zoom: 4, minZoom: 2, maxZoom: 12 });
-    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png", {
       maxZoom: 19,
       attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
     }).addTo(leafletMap);
