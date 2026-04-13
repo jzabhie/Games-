@@ -3,7 +3,7 @@ import { districtsEnriched } from "./districts-enriched.js";
 import { worldCountries } from "./world-data.js";
 import { worldTop50Curated } from "./world-top50-curated.js";
 
-const MAX_GUESSES = 6;
+const MAX_GUESSES = 4;
 
 const els = {
   stateModeBtn: document.getElementById("stateModeBtn"),
