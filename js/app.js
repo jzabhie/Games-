@@ -1,6 +1,7 @@
 import { normalizeName, states } from "./data.js";
 import { districtsEnriched } from "./districts-enriched.js";
 import { worldCountries } from "./world-data.js";
+import { worldTop50Curated } from "./world-top50-curated.js";
 
 const MAX_GUESSES = 6;
 
@@ -28,7 +29,20 @@ const els = {
 const modeConfig = {
   state: { items: states, label: "State / UT" },
   district: { items: districtsEnriched, label: "District" },
-  world: { items: worldCountries, label: "Country" }
+  world: {
+    items: worldCountries.map((country) => {
+      const curated = worldTop50Curated[country.name];
+      if (!curated) {
+        return { ...country, curationTier: "batch-generated" };
+      }
+      return {
+        ...country,
+        ...curated,
+        curationTier: "top-50-hand-curated"
+      };
+    }),
+    label: "Country"
+  }
 };
 
 const game = {
@@ -280,6 +294,7 @@ function renderTargetInfo() {
       `Capital: ${t.capital}`,
       `Currency: ${t.currency}`,
       `Region: ${t.region} / ${t.subregion}`,
+      `Curation Tier: ${t.curationTier || "batch-generated"}`,
       `Area: ${formatNumber(t.areaKm2)} sq km`,
       `Population: ${formatNumber(t.population)}`,
       `Longest River: ${t.longestRiver}`,
@@ -391,7 +406,8 @@ function renderKnowledgeProvider() {
         { title: "Capital & Currency", text: `${t.name}: ${t.capital} | ${t.currency}` },
         { title: "Natural Markers", text: `River: ${t.longestRiver} | Mountain: ${t.highestMountain}` },
         { title: "Culture Snapshot", text: `Cities: ${(t.famousCities || []).join(", ")}` },
-        { title: "People", text: `Known personalities: ${(t.famousPersonalities || []).join(", ")}` }
+        { title: "People", text: `Known personalities: ${(t.famousPersonalities || []).join(", ")}` },
+        { title: "Curation", text: `Data tier: ${t.curationTier || "batch-generated"}` }
       ]
     : game.mode === "district"
       ? [
