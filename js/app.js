@@ -12,7 +12,6 @@ const els = {
   guessInput: document.getElementById("guessInput"),
   guessOptions: document.getElementById("guessOptions"),
   guessBtn: document.getElementById("guessBtn"),
-  resetBtn: document.getElementById("resetBtn"),
   guessBoard: document.getElementById("guessBoard"),
   status: document.getElementById("status"),
   questionTitle: document.getElementById("questionTitle"),
@@ -101,20 +100,20 @@ function millisecondsUntilNextIstMidnight() {
 
 function scheduleDailyRefreshAtIstMidnight() {
   window.setTimeout(() => {
-    setMode(game.mode, false);
+    setMode(game.mode);
     scheduleDailyRefreshAtIstMidnight();
   }, millisecondsUntilNextIstMidnight());
 }
 
-function pickTarget(mode, random = false) {
+function pickTarget(mode) {
   const list = modeConfig[mode].items;
-  const idx = random ? Math.floor(Math.random() * list.length) : dateSeed() % list.length;
+  const idx = dateSeed() % list.length;
   return list[idx];
 }
 
-function setMode(mode, random = false) {
+function setMode(mode) {
   game.mode = mode;
-  game.target = pickTarget(mode, random);
+  game.target = pickTarget(mode);
   game.guesses = [];
   game.won = false;
 
@@ -502,7 +501,6 @@ els.guessInput.addEventListener("keydown", (event) => {
     makeGuess();
   }
 });
-els.resetBtn.addEventListener("click", () => setMode(game.mode, true));
 els.atlasSearch.addEventListener("input", renderAtlas);
 
 setMode("state");
