@@ -33,7 +33,8 @@
         <h2 id="questionTitle">Today's Question</h2>
         <p id="questionText" class="question-text"></p>
         <div id="questionVisual" class="question-visual">
-          <div id="questionMapView" class="question-map" aria-label="Question clue map"></div>
+          <button id="questionMapBtn" class="question-map-btn" type="button">Click for map clue</button>
+          <div id="questionMapView" class="question-map hidden-map" aria-label="Question clue map"></div>
         </div>
         <ul id="questionHints" class="question-hints"></ul>
       </section>
@@ -91,14 +92,6 @@
         <h2>Map View</h2>
         <p id="mapStatus" class="map-status">Guessed markers are shown in blue. The target marker is revealed at end of round.</p>
         <div id="mapView" class="map-view" aria-label="India map with puzzle markers"></div>
-      </section>
-
-      <section id="atlasPanel" class="panel hidden-panel">
-        <div class="atlas-head">
-          <h2>Knowledge Atlas</h2>
-          <input id="atlasSearch" placeholder="Search geography facts" />
-        </div>
-        <div id="atlasGrid" class="atlas-grid"></div>
       </section>
     </main>
 

@@ -17,18 +17,16 @@ const els = {
   questionTitle: document.getElementById("questionTitle"),
   questionText: document.getElementById("questionText"),
   questionVisual: document.getElementById("questionVisual"),
+  questionMapBtn: document.getElementById("questionMapBtn"),
   questionMapView: document.getElementById("questionMapView"),
   questionHints: document.getElementById("questionHints"),
   targetInfo: document.getElementById("targetInfo"),
   mapStatus: document.getElementById("mapStatus"),
   mapView: document.getElementById("mapView"),
-  atlasSearch: document.getElementById("atlasSearch"),
-  atlasGrid: document.getElementById("atlasGrid"),
   knowledgeProvider: document.getElementById("knowledgeProvider"),
   guessesPanel: document.getElementById("guessesPanel"),
   answerPanel: document.getElementById("answerPanel"),
   mapPanel: document.getElementById("mapPanel"),
-  atlasPanel: document.getElementById("atlasPanel"),
   knowledgePanel: document.getElementById("knowledgePanel")
 };
 
@@ -130,11 +128,10 @@ function setMode(mode) {
   renderBoard();
   renderStatus();
   renderQuestion();
-  renderQuestionMap();
+  hideQuestionMap();
   renderVisibility();
   renderTargetInfo();
   renderMap();
-  renderAtlas();
   renderKnowledgeProvider();
 }
 
@@ -149,8 +146,17 @@ function renderVisibility() {
   els.guessesPanel.classList.toggle("hidden-panel", !guessedAny);
   els.answerPanel.classList.toggle("hidden-panel", !done);
   els.mapPanel.classList.toggle("hidden-panel", !done);
-  els.atlasPanel.classList.toggle("hidden-panel", !done);
   els.knowledgePanel.classList.toggle("hidden-panel", !done);
+}
+
+function hideQuestionMap() {
+  if (els.questionMapView) {
+    els.questionMapView.classList.add("hidden-map");
+  }
+  if (els.questionMapBtn) {
+    els.questionMapBtn.classList.remove("hidden-map");
+    els.questionMapBtn.textContent = "Click for map clue";
+  }
 }
 
 function renderOptions() {
@@ -313,6 +319,10 @@ function renderQuestionMap() {
 
   clueLayer.clearLayers();
 
+  els.questionMapView.classList.remove("hidden-map");
+  els.questionMapBtn.classList.add("hidden-map");
+  clueMap.invalidateSize();
+
   const center = game.mode === "world" ? [20, 0] : game.mode === "district" ? [game.target.lat, game.target.lon] : [game.target.lat, game.target.lon];
   const zoom = game.mode === "world" ? 2 : game.mode === "district" ? 5 : 4;
   clueMap.setView(center, zoom);
@@ -434,39 +444,6 @@ function renderMap() {
     : "Blue markers are your guesses. Red target marker appears at end of round.";
 }
 
-function renderAtlas() {
-  const q = normalizeName(els.atlasSearch.value || "");
-  const list = modeConfig[game.mode].items.filter((item) => {
-    const blob = normalizeName([
-      item.name,
-      item.region,
-      item.state || "",
-      item.capital || "",
-      item.headquarters || "",
-      item.currency || "",
-      item.fact,
-      (item.famousCities || []).join(" "),
-      (item.famousArchitecture || []).join(" "),
-      (item.famousPersonalities || []).join(" ")
-    ].join(" "));
-    return blob.includes(q);
-  });
-
-  els.atlasGrid.innerHTML = list.slice(0, 180).map((item) => {
-    const title = game.mode === "world" && item.flagPng ? `<img class="flag" src="${item.flagPng}" alt="${item.name} flag"/>${item.name}` : item.name;
-    const topLine = game.mode === "state"
-      ? `${item.capital} | ${item.language}`
-      : game.mode === "district"
-        ? `${item.state} | HQ ${item.headquarters}`
-        : `${item.capital} | ${item.currency}`;
-    const extra = game.mode === "world"
-      ? `<p>Longest River: ${item.longestRiver}</p><p>Highest Mountain: ${item.highestMountain}</p><p>Famous Cities: ${(item.famousCities || []).join(", ")}</p>`
-      : "";
-
-    return `<article class="atlas-card"><h3>${title}</h3><p>${topLine}</p><p>Region: ${item.region}</p><p>Area: ${formatNumber(item.areaKm2)} sq km</p><p>Population: ${formatNumber(item.population)}</p>${extra}<p>${item.fact}</p></article>`;
-  }).join("");
-}
-
 function renderKnowledgeProvider() {
   const t = game.target;
   if (!t || !els.knowledgeProvider) return;
@@ -527,6 +504,7 @@ function makeGuess() {
 els.stateModeBtn.addEventListener("click", () => setMode("state"));
 els.districtModeBtn.addEventListener("click", () => setMode("district"));
 els.worldModeBtn.addEventListener("click", () => setMode("world"));
+els.questionMapBtn.addEventListener("click", () => renderQuestionMap());
 els.guessBtn.addEventListener("click", makeGuess);
 els.guessInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
@@ -534,7 +512,5 @@ els.guessInput.addEventListener("keydown", (event) => {
     makeGuess();
   }
 });
-els.atlasSearch.addEventListener("input", renderAtlas);
-
 setMode("state");
 scheduleDailyRefreshAtIstMidnight();
