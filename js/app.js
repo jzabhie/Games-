@@ -17,13 +17,19 @@ const els = {
   status: document.getElementById("status"),
   questionTitle: document.getElementById("questionTitle"),
   questionText: document.getElementById("questionText"),
+  questionVisual: document.getElementById("questionVisual"),
   questionHints: document.getElementById("questionHints"),
   targetInfo: document.getElementById("targetInfo"),
   mapStatus: document.getElementById("mapStatus"),
   mapView: document.getElementById("mapView"),
   atlasSearch: document.getElementById("atlasSearch"),
   atlasGrid: document.getElementById("atlasGrid"),
-  knowledgeProvider: document.getElementById("knowledgeProvider")
+  knowledgeProvider: document.getElementById("knowledgeProvider"),
+  guessesPanel: document.getElementById("guessesPanel"),
+  answerPanel: document.getElementById("answerPanel"),
+  mapPanel: document.getElementById("mapPanel"),
+  atlasPanel: document.getElementById("atlasPanel"),
+  knowledgePanel: document.getElementById("knowledgePanel")
 };
 
 const modeConfig = {
@@ -122,10 +128,26 @@ function setMode(mode, random = false) {
   renderBoard();
   renderStatus();
   renderQuestion();
+  renderVisibility();
   renderTargetInfo();
   renderMap();
   renderAtlas();
   renderKnowledgeProvider();
+}
+
+function isRoundComplete() {
+  return game.won || game.guesses.length >= MAX_GUESSES;
+}
+
+function renderVisibility() {
+  const guessedAny = game.guesses.length > 0;
+  const done = isRoundComplete();
+
+  els.guessesPanel.classList.toggle("hidden-panel", !guessedAny);
+  els.answerPanel.classList.toggle("hidden-panel", !done);
+  els.mapPanel.classList.toggle("hidden-panel", !done);
+  els.atlasPanel.classList.toggle("hidden-panel", !done);
+  els.knowledgePanel.classList.toggle("hidden-panel", !done);
 }
 
 function renderOptions() {
@@ -254,10 +276,26 @@ function renderQuestion() {
 
   const visibleCount = game.won || game.guesses.length >= MAX_GUESSES ? clues.length : Math.min(clues.length, 2 + Math.floor(game.guesses.length / 2));
   els.questionHints.innerHTML = clues.slice(0, visibleCount).map((c) => `<li>${c}</li>`).join("");
+
+  if (game.mode === "world") {
+    els.questionVisual.innerHTML = `
+      <div class="question-clue">
+        ${game.target.flagPng ? `<img class="flag" src="${game.target.flagPng}" alt="Country clue flag"/>` : ""}
+        <span>Country visual clue</span>
+        ${game.target.mapUrl ? `<a class="question-map-link" target="_blank" rel="noreferrer" href="${game.target.mapUrl}">Open clue map</a>` : ""}
+      </div>`;
+  } else {
+    const mapLink = `https://www.openstreetmap.org/?mlat=${game.target.lat}&mlon=${game.target.lon}#map=6/${game.target.lat}/${game.target.lon}`;
+    els.questionVisual.innerHTML = `
+      <div class="question-clue">
+        <span>Map clue for this ${game.mode}</span>
+        <a class="question-map-link" target="_blank" rel="noreferrer" href="${mapLink}">Open clue map</a>
+      </div>`;
+  }
 }
 
 function renderTargetInfo() {
-  if (!game.won && game.guesses.length < MAX_GUESSES) {
+  if (!isRoundComplete()) {
     els.targetInfo.className = "target-info empty";
     els.targetInfo.textContent = "Solve the puzzle (or use all guesses) to reveal full details.";
     return;
@@ -314,9 +352,9 @@ function renderTargetInfo() {
 function renderMap() {
   if (!leafletMap && window.L && els.mapView) {
     leafletMap = L.map(els.mapView, { center: [22.6, 79.5], zoom: 4, minZoom: 2, maxZoom: 12 });
-    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
       maxZoom: 19,
-      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      attribution: '&copy; OpenStreetMap contributors &copy; CARTO'
     }).addTo(leafletMap);
     guessLayer = L.layerGroup().addTo(leafletMap);
     targetLayer = L.layerGroup().addTo(leafletMap);
@@ -342,7 +380,7 @@ function renderMap() {
     bounds.push([g.item.lat, g.item.lon]);
   });
 
-  if (game.won || game.guesses.length >= MAX_GUESSES) {
+  if (isRoundComplete()) {
     L.circleMarker([game.target.lat, game.target.lon], {
       radius: 8,
       color: "#8f1d1d",
@@ -359,7 +397,7 @@ function renderMap() {
     leafletMap.setView(game.mode === "world" ? [20, 0] : [22.6, 79.5], game.mode === "world" ? 2 : 4);
   }
 
-  els.mapStatus.textContent = game.won || game.guesses.length >= MAX_GUESSES
+  els.mapStatus.textContent = isRoundComplete()
     ? `Blue markers are guesses. Red marker is target: ${game.target.name}.`
     : "Blue markers are your guesses. Red target marker appears at end of round.";
 }
@@ -448,6 +486,7 @@ function makeGuess() {
   renderBoard();
   renderStatus();
   renderQuestion();
+  renderVisibility();
   renderTargetInfo();
   renderMap();
   renderKnowledgeProvider();

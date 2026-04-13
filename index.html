@@ -35,6 +35,7 @@
       <section class="panel">
         <h2 id="questionTitle">Today's Question</h2>
         <p id="questionText" class="question-text"></p>
+        <div id="questionVisual" class="question-visual"></div>
         <ul id="questionHints" class="question-hints"></ul>
       </section>
 
@@ -71,29 +72,29 @@
         </ul>
       </section>
 
-      <section class="panel knowledge-pulse">
+      <section id="knowledgePanel" class="panel knowledge-pulse hidden-panel">
         <h2>Knowledge Provider</h2>
         <p class="question-text">Smart facts based on the current daily target and your recent guesses.</p>
         <div id="knowledgeProvider" class="knowledge-grid"></div>
       </section>
 
-      <section class="panel">
+      <section id="guessesPanel" class="panel hidden-panel">
         <h2>Guesses</h2>
         <div id="guessBoard" class="guess-board"></div>
       </section>
 
-      <section class="panel">
+      <section id="answerPanel" class="panel hidden-panel">
         <h2>Answer Details</h2>
         <div id="targetInfo" class="target-info empty">Solve the puzzle (or use all guesses) to reveal full details.</div>
       </section>
 
-      <section class="panel">
+      <section id="mapPanel" class="panel hidden-panel">
         <h2>Map View</h2>
         <p id="mapStatus" class="map-status">Guessed markers are shown in blue. The target marker is revealed at end of round.</p>
         <div id="mapView" class="map-view" aria-label="India map with puzzle markers"></div>
       </section>
 
-      <section class="panel">
+      <section id="atlasPanel" class="panel hidden-panel">
         <div class="atlas-head">
           <h2>Knowledge Atlas</h2>
           <input id="atlasSearch" placeholder="Search geography facts" />
