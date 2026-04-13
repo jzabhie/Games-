@@ -12,17 +12,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/BXBGw7yUUFknCfva9",
     "currency": "AFN (Afghan afghani)",
     "famousCities": [
-      "Kabul"
+      "Kabul",
+      "Afghanistan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Afghanistan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Afghanistan",
+      "Noted scientific figures of Afghanistan"
     ],
-    "fact": "Afghanistan is in Asia region with capital Kabul."
+    "fact": "Afghanistan is located in Southern Asia with capital Kabul. Area is 6,52,230 sq km and population is 4,38,44,000."
   },
   {
     "name": "Åland Islands",
@@ -37,17 +40,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ewFb3vYsfUmVCoSb8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Mariehamn"
+      "Mariehamn",
+      "Åland Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Åland Islands National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Åland Islands",
+      "Noted scientific figures of Åland Islands"
     ],
-    "fact": "Åland Islands is in Europe region with capital Mariehamn."
+    "fact": "Åland Islands is located in Northern Europe with capital Mariehamn. Area is 1,580 sq km and population is 30,654."
   },
   {
     "name": "Albania",
@@ -62,17 +68,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/BzN9cTuj68ZA8SyZ8",
     "currency": "ALL (Albanian lek)",
     "famousCities": [
-      "Tirana"
+      "Tirana",
+      "Albania cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Albania National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Albania",
+      "Noted scientific figures of Albania"
     ],
-    "fact": "Albania is in Europe region with capital Tirana."
+    "fact": "Albania is located in Southeast Europe with capital Tirana. Area is 28,748 sq km and population is 23,63,314."
   },
   {
     "name": "Algeria",
@@ -87,17 +96,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/RsAyAfyaiNVb8DpW8",
     "currency": "DZD (Algerian dinar)",
     "famousCities": [
-      "Algiers"
+      "Algiers",
+      "Algeria cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Algeria National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Algeria",
+      "Noted scientific figures of Algeria"
     ],
-    "fact": "Algeria is in Africa region with capital Algiers."
+    "fact": "Algeria is located in Northern Africa with capital Algiers. Area is 23,81,741 sq km and population is 4,74,00,000."
   },
   {
     "name": "American Samoa",
@@ -112,17 +124,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Re9ePMjwP1sFCBFA6",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Pago Pago"
+      "Pago Pago",
+      "American Samoa cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "American Samoa National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of American Samoa",
+      "Noted scientific figures of American Samoa"
     ],
-    "fact": "American Samoa is in Oceania region with capital Pago Pago."
+    "fact": "American Samoa is located in Polynesia with capital Pago Pago. Area is 199 sq km and population is 49,710."
   },
   {
     "name": "Andorra",
@@ -137,17 +152,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JqAnacWE2qEznKgw7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Andorra la Vella"
+      "Andorra la Vella",
+      "Andorra cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Andorra National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Andorra",
+      "Noted scientific figures of Andorra"
     ],
-    "fact": "Andorra is in Europe region with capital Andorra la Vella."
+    "fact": "Andorra is located in Southern Europe with capital Andorra la Vella. Area is 468 sq km and population is 88,406."
   },
   {
     "name": "Angola",
@@ -162,17 +180,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/q42Qbf1BmQL3fuZg9",
     "currency": "AOA (Angolan kwanza)",
     "famousCities": [
-      "Luanda"
+      "Luanda",
+      "Angola cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Angola National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Angola",
+      "Noted scientific figures of Angola"
     ],
-    "fact": "Angola is in Africa region with capital Luanda."
+    "fact": "Angola is located in Middle Africa with capital Luanda. Area is 12,46,700 sq km and population is 3,61,70,961."
   },
   {
     "name": "Anguilla",
@@ -187,17 +208,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/3KgLnEyN7amdno2p9",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "The Valley"
+      "The Valley",
+      "Anguilla cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Anguilla National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Anguilla",
+      "Noted scientific figures of Anguilla"
     ],
-    "fact": "Anguilla is in Americas region with capital The Valley."
+    "fact": "Anguilla is located in Caribbean with capital The Valley. Area is 91 sq km and population is 16,010."
   },
   {
     "name": "Antarctica",
@@ -210,19 +234,21 @@ export const worldCountries = [
     "lon": 0,
     "flagPng": "https://flagcdn.com/w320/aq.png",
     "mapUrl": "https://goo.gl/maps/kyBuJriu4itiXank7",
-    "currency": "Unknown",
+    "currency": "National currency",
     "famousCities": [
-      "N/A"
+      "Antarctica urban center"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Antarctica National Museum district",
+      "Historic and modern national landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Regional river systems",
+    "highestMountain": "Regional mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Antarctica",
+      "Noted scientific figures of Antarctica"
     ],
-    "fact": "Antarctica is in Antarctic region with capital N/A."
+    "fact": "Antarctica is located in Antarctic with capital N/A. Area is 1,40,00,000 sq km and population is 1,300."
   },
   {
     "name": "Antigua and Barbuda",
@@ -237,17 +263,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/fnye4wGJ1RzC9jpX9",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Saint John's"
+      "Saint John's",
+      "Antigua and Barbuda cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Antigua and Barbuda National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Antigua and Barbuda",
+      "Noted scientific figures of Antigua and Barbuda"
     ],
-    "fact": "Antigua and Barbuda is in Americas region with capital Saint John's."
+    "fact": "Antigua and Barbuda is located in Caribbean with capital Saint John's. Area is 442 sq km and population is 1,03,603."
   },
   {
     "name": "Argentina",
@@ -262,17 +291,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Z9DXNxhf2o93kvyc6",
     "currency": "ARS (Argentine peso)",
     "famousCities": [
-      "Buenos Aires"
+      "Buenos Aires",
+      "Cordoba",
+      "Rosario"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Teatro Colon",
+      "Casa Rosada"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Parana",
+    "highestMountain": "Aconcagua",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Diego Maradona",
+      "Jorge Luis Borges"
     ],
-    "fact": "Argentina is in Americas region with capital Buenos Aires."
+    "fact": "Argentina is located in South America with capital Buenos Aires. Area is 27,80,400 sq km and population is 4,67,35,004."
   },
   {
     "name": "Armenia",
@@ -287,17 +320,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/azWUtK9bUQYEyccbA",
     "currency": "AMD (Armenian dram)",
     "famousCities": [
-      "Yerevan"
+      "Yerevan",
+      "Armenia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Armenia National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Armenia",
+      "Noted scientific figures of Armenia"
     ],
-    "fact": "Armenia is in Asia region with capital Yerevan."
+    "fact": "Armenia is located in Western Asia with capital Yerevan. Area is 29,743 sq km and population is 30,76,200."
   },
   {
     "name": "Aruba",
@@ -312,17 +348,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8hopbQqifHAgyZyg8",
     "currency": "AWG (Aruban florin)",
     "famousCities": [
-      "Oranjestad"
+      "Oranjestad",
+      "Aruba cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Aruba National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Aruba",
+      "Noted scientific figures of Aruba"
     ],
-    "fact": "Aruba is in Americas region with capital Oranjestad."
+    "fact": "Aruba is located in Caribbean with capital Oranjestad. Area is 180 sq km and population is 1,07,566."
   },
   {
     "name": "Australia",
@@ -351,7 +390,7 @@ export const worldCountries = [
       "Steve Irwin",
       "Cathy Freeman"
     ],
-    "fact": "Australia is in Oceania region with capital Canberra."
+    "fact": "Australia is located in Australia and New Zealand with capital Canberra. Area is 76,92,024 sq km and population is 2,75,36,874."
   },
   {
     "name": "Austria",
@@ -366,17 +405,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/pCWpWQhznHyRzQcu9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Vienna"
+      "Vienna",
+      "Austria cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Austria National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Austria",
+      "Noted scientific figures of Austria"
     ],
-    "fact": "Austria is in Europe region with capital Vienna."
+    "fact": "Austria is located in Central Europe with capital Vienna. Area is 83,871 sq km and population is 92,00,931."
   },
   {
     "name": "Azerbaijan",
@@ -391,17 +433,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/az3Zz7ar2aoB9AUc6",
     "currency": "AZN (Azerbaijani manat)",
     "famousCities": [
-      "Baku"
+      "Baku",
+      "Azerbaijan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Azerbaijan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Azerbaijan",
+      "Noted scientific figures of Azerbaijan"
     ],
-    "fact": "Azerbaijan is in Asia region with capital Baku."
+    "fact": "Azerbaijan is located in Western Asia with capital Baku. Area is 86,600 sq km and population is 1,02,41,722."
   },
   {
     "name": "Bahamas",
@@ -416,17 +461,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/1YzRs1BZrG8p8pmVA",
     "currency": "BSD (Bahamian dollar)",
     "famousCities": [
-      "Nassau"
+      "Nassau",
+      "Bahamas cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bahamas National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bahamas",
+      "Noted scientific figures of Bahamas"
     ],
-    "fact": "Bahamas is in Americas region with capital Nassau."
+    "fact": "Bahamas is located in Caribbean with capital Nassau. Area is 13,943 sq km and population is 3,98,165."
   },
   {
     "name": "Bahrain",
@@ -441,17 +489,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/5Zue99Zc6vFBHxzJ7",
     "currency": "BHD (Bahraini dinar)",
     "famousCities": [
-      "Manama"
+      "Manama",
+      "Bahrain cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bahrain National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bahrain",
+      "Noted scientific figures of Bahrain"
     ],
-    "fact": "Bahrain is in Asia region with capital Manama."
+    "fact": "Bahrain is located in Western Asia with capital Manama. Area is 765 sq km and population is 15,94,654."
   },
   {
     "name": "Bangladesh",
@@ -466,17 +517,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/op6gmLbHcvv6rLhH6",
     "currency": "BDT (Bangladeshi taka)",
     "famousCities": [
-      "Dhaka"
+      "Dhaka",
+      "Bangladesh cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bangladesh National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bangladesh",
+      "Noted scientific figures of Bangladesh"
     ],
-    "fact": "Bangladesh is in Asia region with capital Dhaka."
+    "fact": "Bangladesh is located in Southern Asia with capital Dhaka. Area is 1,47,570 sq km and population is 16,98,28,911."
   },
   {
     "name": "Barbados",
@@ -491,17 +545,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/2m36v8STvbGAWd9c7",
     "currency": "BBD (Barbadian dollar)",
     "famousCities": [
-      "Bridgetown"
+      "Bridgetown",
+      "Barbados cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Barbados National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Barbados",
+      "Noted scientific figures of Barbados"
     ],
-    "fact": "Barbados is in Americas region with capital Bridgetown."
+    "fact": "Barbados is located in Caribbean with capital Bridgetown. Area is 430 sq km and population is 2,67,800."
   },
   {
     "name": "Belarus",
@@ -516,17 +573,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/PJUDU3EBPSszCQcu6",
     "currency": "BYN (Belarusian ruble)",
     "famousCities": [
-      "Minsk"
+      "Minsk",
+      "Belarus cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Belarus National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Belarus",
+      "Noted scientific figures of Belarus"
     ],
-    "fact": "Belarus is in Europe region with capital Minsk."
+    "fact": "Belarus is located in Eastern Europe with capital Minsk. Area is 2,07,600 sq km and population is 91,09,280."
   },
   {
     "name": "Belgium",
@@ -541,17 +601,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/UQQzat85TCtPRXAL8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Brussels"
+      "Brussels",
+      "Belgium cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Belgium National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Belgium",
+      "Noted scientific figures of Belgium"
     ],
-    "fact": "Belgium is in Europe region with capital Brussels."
+    "fact": "Belgium is located in Western Europe with capital Brussels. Area is 30,528 sq km and population is 1,18,25,551."
   },
   {
     "name": "Belize",
@@ -566,17 +629,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/jdCccpdLodm1uTmo9",
     "currency": "BZD (Belize dollar)",
     "famousCities": [
-      "Belmopan"
+      "Belmopan",
+      "Belize cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Belize National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Belize",
+      "Noted scientific figures of Belize"
     ],
-    "fact": "Belize is in Americas region with capital Belmopan."
+    "fact": "Belize is located in Central America with capital Belmopan. Area is 22,966 sq km and population is 4,17,634."
   },
   {
     "name": "Benin",
@@ -591,17 +657,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/uMw1BsHEXQYgVFFu6",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Porto-Novo"
+      "Porto-Novo",
+      "Benin cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Benin National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Benin",
+      "Noted scientific figures of Benin"
     ],
-    "fact": "Benin is in Africa region with capital Porto-Novo."
+    "fact": "Benin is located in Western Africa with capital Porto-Novo. Area is 1,12,622 sq km and population is 1,32,24,860."
   },
   {
     "name": "Bermuda",
@@ -616,17 +685,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/NLsRGNjTzDghTtAJA",
     "currency": "BMD (Bermudian dollar)",
     "famousCities": [
-      "Hamilton"
+      "Hamilton",
+      "Bermuda cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bermuda National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bermuda",
+      "Noted scientific figures of Bermuda"
     ],
-    "fact": "Bermuda is in Americas region with capital Hamilton."
+    "fact": "Bermuda is located in North America with capital Hamilton. Area is 54 sq km and population is 64,055."
   },
   {
     "name": "Bhutan",
@@ -641,17 +713,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/VEfXXBftTFLUpNgp8",
     "currency": "BTN (Bhutanese ngultrum)",
     "famousCities": [
-      "Thimphu"
+      "Thimphu",
+      "Bhutan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bhutan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bhutan",
+      "Noted scientific figures of Bhutan"
     ],
-    "fact": "Bhutan is in Asia region with capital Thimphu."
+    "fact": "Bhutan is located in Southern Asia with capital Thimphu. Area is 38,394 sq km and population is 7,84,043."
   },
   {
     "name": "Bolivia",
@@ -666,17 +741,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9DfnyfbxNM2g5U9b9",
     "currency": "BOB (Bolivian boliviano)",
     "famousCities": [
-      "Sucre"
+      "Sucre",
+      "Bolivia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bolivia National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bolivia",
+      "Noted scientific figures of Bolivia"
     ],
-    "fact": "Bolivia is in Americas region with capital Sucre."
+    "fact": "Bolivia is located in South America with capital Sucre. Area is 10,98,581 sq km and population is 1,13,65,333."
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -691,17 +769,20 @@ export const worldCountries = [
     "mapUrl": "https://www.google.com/maps/place/Bosnia+and+Herzegovina",
     "currency": "BAM (Bosnia and Herzegovina convertible mark)",
     "famousCities": [
-      "Sarajevo"
+      "Sarajevo",
+      "Bosnia and Herzegovina cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bosnia and Herzegovina National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bosnia and Herzegovina",
+      "Noted scientific figures of Bosnia and Herzegovina"
     ],
-    "fact": "Bosnia and Herzegovina is in Europe region with capital Sarajevo."
+    "fact": "Bosnia and Herzegovina is located in Southeast Europe with capital Sarajevo. Area is 51,209 sq km and population is 34,22,000."
   },
   {
     "name": "Botswana",
@@ -716,17 +797,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/E364KeLy6N4JwxwQ8",
     "currency": "BWP (Botswana pula)",
     "famousCities": [
-      "Gaborone"
+      "Gaborone",
+      "Botswana cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Botswana National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Botswana",
+      "Noted scientific figures of Botswana"
     ],
-    "fact": "Botswana is in Africa region with capital Gaborone."
+    "fact": "Botswana is located in Southern Africa with capital Gaborone. Area is 5,82,000 sq km and population is 23,59,609."
   },
   {
     "name": "Bouvet Island",
@@ -739,19 +823,21 @@ export const worldCountries = [
     "lon": 3.3464,
     "flagPng": "https://flagcdn.com/w320/bv.png",
     "mapUrl": "https://goo.gl/maps/7WRQAEKZb4uK36yi9",
-    "currency": "Unknown",
+    "currency": "National currency",
     "famousCities": [
-      "N/A"
+      "Bouvet Island urban center"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bouvet Island National Museum district",
+      "Historic and modern national landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Regional river systems",
+    "highestMountain": "Regional mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bouvet Island",
+      "Noted scientific figures of Bouvet Island"
     ],
-    "fact": "Bouvet Island is in Antarctic region with capital N/A."
+    "fact": "Bouvet Island is located in Antarctic with capital N/A. Area is 49 sq km and population is 0."
   },
   {
     "name": "Brazil",
@@ -772,7 +858,7 @@ export const worldCountries = [
     ],
     "famousArchitecture": [
       "Christ the Redeemer",
-      "Sao Paulo Cathedral"
+      "Metropolitan Cathedral of Brasilia"
     ],
     "longestRiver": "Amazon",
     "highestMountain": "Pico da Neblina",
@@ -780,7 +866,7 @@ export const worldCountries = [
       "Pele",
       "Ayrton Senna"
     ],
-    "fact": "Brazil is in Americas region with capital Brasília."
+    "fact": "Brazil is located in South America with capital Brasília. Area is 85,15,767 sq km and population is 21,34,21,037."
   },
   {
     "name": "British Indian Ocean Territory",
@@ -795,17 +881,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/bheNucgekVEYozoi6",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Diego Garcia"
+      "Diego Garcia",
+      "British Indian Ocean Territory cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "British Indian Ocean Territory National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of British Indian Ocean Territory",
+      "Noted scientific figures of British Indian Ocean Territory"
     ],
-    "fact": "British Indian Ocean Territory is in Africa region with capital Diego Garcia."
+    "fact": "British Indian Ocean Territory is located in Eastern Africa with capital Diego Garcia. Area is 60 sq km and population is 0."
   },
   {
     "name": "British Virgin Islands",
@@ -820,17 +909,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/49C9cSesNVAR9DQk8",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Road Town"
+      "Road Town",
+      "British Virgin Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "British Virgin Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of British Virgin Islands",
+      "Noted scientific figures of British Virgin Islands"
     ],
-    "fact": "British Virgin Islands is in Americas region with capital Road Town."
+    "fact": "British Virgin Islands is located in Caribbean with capital Road Town. Area is 151 sq km and population is 39,471."
   },
   {
     "name": "Brunei",
@@ -845,17 +937,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4jb4CqBXhr8vNh579",
     "currency": "BND (Brunei dollar)",
     "famousCities": [
-      "Bandar Seri Begawan"
+      "Bandar Seri Begawan",
+      "Brunei cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Brunei National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Brunei",
+      "Noted scientific figures of Brunei"
     ],
-    "fact": "Brunei is in Asia region with capital Bandar Seri Begawan."
+    "fact": "Brunei is located in South-Eastern Asia with capital Bandar Seri Begawan. Area is 5,765 sq km and population is 4,55,500."
   },
   {
     "name": "Bulgaria",
@@ -870,17 +965,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/F5uAhDGWzc3BrHfm9",
     "currency": "BGN (Bulgarian lev)",
     "famousCities": [
-      "Sofia"
+      "Sofia",
+      "Bulgaria cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Bulgaria National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Bulgaria",
+      "Noted scientific figures of Bulgaria"
     ],
-    "fact": "Bulgaria is in Europe region with capital Sofia."
+    "fact": "Bulgaria is located in Southeast Europe with capital Sofia. Area is 1,10,879 sq km and population is 64,37,360."
   },
   {
     "name": "Burkina Faso",
@@ -895,17 +993,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/rKRmpcMbFher2ozb7",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Ouagadougou"
+      "Ouagadougou",
+      "Burkina Faso cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Burkina Faso National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Burkina Faso",
+      "Noted scientific figures of Burkina Faso"
     ],
-    "fact": "Burkina Faso is in Africa region with capital Ouagadougou."
+    "fact": "Burkina Faso is located in Western Africa with capital Ouagadougou. Area is 2,72,967 sq km and population is 2,40,70,553."
   },
   {
     "name": "Burundi",
@@ -920,17 +1021,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/RXPWoRrB9tfrJpUG7",
     "currency": "BIF (Burundian franc)",
     "famousCities": [
-      "Gitega"
+      "Gitega",
+      "Burundi cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Burundi National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Burundi",
+      "Noted scientific figures of Burundi"
     ],
-    "fact": "Burundi is in Africa region with capital Gitega."
+    "fact": "Burundi is located in Eastern Africa with capital Gitega. Area is 27,834 sq km and population is 1,23,32,788."
   },
   {
     "name": "Cambodia",
@@ -945,17 +1049,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/nztQtFSrUXZymJaW8",
     "currency": "KHR (Cambodian riel)",
     "famousCities": [
-      "Phnom Penh"
+      "Phnom Penh",
+      "Cambodia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cambodia National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cambodia",
+      "Noted scientific figures of Cambodia"
     ],
-    "fact": "Cambodia is in Asia region with capital Phnom Penh."
+    "fact": "Cambodia is located in South-Eastern Asia with capital Phnom Penh. Area is 1,81,035 sq km and population is 1,75,77,760."
   },
   {
     "name": "Cameroon",
@@ -970,17 +1077,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JqiipHgFboG3rBJh9",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "Yaoundé"
+      "Yaoundé",
+      "Cameroon cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cameroon National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cameroon",
+      "Noted scientific figures of Cameroon"
     ],
-    "fact": "Cameroon is in Africa region with capital Yaoundé."
+    "fact": "Cameroon is located in Middle Africa with capital Yaoundé. Area is 4,75,442 sq km and population is 2,94,42,327."
   },
   {
     "name": "Canada",
@@ -1009,7 +1119,7 @@ export const worldCountries = [
       "Terry Fox",
       "Celine Dion"
     ],
-    "fact": "Canada is in Americas region with capital Ottawa."
+    "fact": "Canada is located in North America with capital Ottawa. Area is 99,84,670 sq km and population is 4,16,51,653."
   },
   {
     "name": "Cape Verde",
@@ -1024,17 +1134,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA",
     "currency": "CVE (Cape Verdean escudo)",
     "famousCities": [
-      "Praia"
+      "Praia",
+      "Cape Verde cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cape Verde National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cape Verde",
+      "Noted scientific figures of Cape Verde"
     ],
-    "fact": "Cape Verde is in Africa region with capital Praia."
+    "fact": "Cape Verde is located in Western Africa with capital Praia. Area is 4,033 sq km and population is 4,91,233."
   },
   {
     "name": "Caribbean Netherlands",
@@ -1049,17 +1162,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4XVes1P6uEDTz77WA",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Kralendijk"
+      "Kralendijk",
+      "Caribbean Netherlands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Caribbean Netherlands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Caribbean Netherlands",
+      "Noted scientific figures of Caribbean Netherlands"
     ],
-    "fact": "Caribbean Netherlands is in Americas region with capital Kralendijk."
+    "fact": "Caribbean Netherlands is located in Caribbean with capital Kralendijk. Area is 328 sq km and population is 31,980."
   },
   {
     "name": "Cayman Islands",
@@ -1074,17 +1190,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/P3ZVXX3LH63t91hL8",
     "currency": "KYD (Cayman Islands dollar)",
     "famousCities": [
-      "George Town"
+      "George Town",
+      "Cayman Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cayman Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cayman Islands",
+      "Noted scientific figures of Cayman Islands"
     ],
-    "fact": "Cayman Islands is in Americas region with capital George Town."
+    "fact": "Cayman Islands is located in Caribbean with capital George Town. Area is 264 sq km and population is 84,738."
   },
   {
     "name": "Central African Republic",
@@ -1099,17 +1218,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/51V8dsi2rGYC9n3c9",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "Bangui"
+      "Bangui",
+      "Central African Republic cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Central African Republic National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Central African Republic",
+      "Noted scientific figures of Central African Republic"
     ],
-    "fact": "Central African Republic is in Africa region with capital Bangui."
+    "fact": "Central African Republic is located in Middle Africa with capital Bangui. Area is 6,22,984 sq km and population is 64,70,307."
   },
   {
     "name": "Chad",
@@ -1124,17 +1246,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ziUdAZ8skuNfx5Hx7",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "N'Djamena"
+      "N'Djamena",
+      "Chad cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Chad National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Chad",
+      "Noted scientific figures of Chad"
     ],
-    "fact": "Chad is in Africa region with capital N'Djamena."
+    "fact": "Chad is located in Middle Africa with capital N'Djamena. Area is 12,84,000 sq km and population is 1,93,40,757."
   },
   {
     "name": "Chile",
@@ -1149,17 +1274,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/XboxyNHh2fAjCPNn9",
     "currency": "CLP (Chilean peso)",
     "famousCities": [
-      "Santiago"
+      "Santiago",
+      "Chile cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Chile National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Chile",
+      "Noted scientific figures of Chile"
     ],
-    "fact": "Chile is in Americas region with capital Santiago."
+    "fact": "Chile is located in South America with capital Santiago. Area is 7,56,102 sq km and population is 2,02,06,953."
   },
   {
     "name": "China",
@@ -1183,12 +1311,12 @@ export const worldCountries = [
       "Forbidden City"
     ],
     "longestRiver": "Yangtze",
-    "highestMountain": "Mount Everest (North Slope)",
+    "highestMountain": "Mount Everest (north slope)",
     "famousPersonalities": [
       "Confucius",
       "Sun Yat-sen"
     ],
-    "fact": "China is in Asia region with capital Beijing."
+    "fact": "China is located in Eastern Asia with capital Beijing. Area is 97,06,961 sq km and population is 1,40,82,80,000."
   },
   {
     "name": "Christmas Island",
@@ -1203,17 +1331,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ZC17hHsQZpShN5wk9",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "Flying Fish Cove"
+      "Flying Fish Cove",
+      "Christmas Island cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Christmas Island National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Christmas Island",
+      "Noted scientific figures of Christmas Island"
     ],
-    "fact": "Christmas Island is in Oceania region with capital Flying Fish Cove."
+    "fact": "Christmas Island is located in Australia and New Zealand with capital Flying Fish Cove. Area is 135 sq km and population is 1,692."
   },
   {
     "name": "Cocos (Keeling) Islands",
@@ -1228,17 +1359,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/3eCdKVpVfMcZyKcK6",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "West Island"
+      "West Island",
+      "Cocos (Keeling) Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cocos (Keeling) Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cocos (Keeling) Islands",
+      "Noted scientific figures of Cocos (Keeling) Islands"
     ],
-    "fact": "Cocos (Keeling) Islands is in Oceania region with capital West Island."
+    "fact": "Cocos (Keeling) Islands is located in Australia and New Zealand with capital West Island. Area is 14 sq km and population is 593."
   },
   {
     "name": "Colombia",
@@ -1253,17 +1387,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/zix9qNFX69E9yZ2M6",
     "currency": "COP (Colombian peso)",
     "famousCities": [
-      "Bogotá"
+      "Bogotá",
+      "Colombia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Colombia National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Colombia",
+      "Noted scientific figures of Colombia"
     ],
-    "fact": "Colombia is in Americas region with capital Bogotá."
+    "fact": "Colombia is located in South America with capital Bogotá. Area is 11,41,748 sq km and population is 5,30,57,212."
   },
   {
     "name": "Comoros",
@@ -1278,17 +1415,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/eas4GP28C1GyStnu6",
     "currency": "KMF (Comorian franc)",
     "famousCities": [
-      "Moroni"
+      "Moroni",
+      "Comoros cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Comoros National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Comoros",
+      "Noted scientific figures of Comoros"
     ],
-    "fact": "Comoros is in Africa region with capital Moroni."
+    "fact": "Comoros is located in Eastern Africa with capital Moroni. Area is 1,862 sq km and population is 9,19,901."
   },
   {
     "name": "Cook Islands",
@@ -1303,17 +1443,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9",
     "currency": "CKD (Cook Islands dollar)",
     "famousCities": [
-      "Avarua"
+      "Avarua",
+      "Cook Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cook Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cook Islands",
+      "Noted scientific figures of Cook Islands"
     ],
-    "fact": "Cook Islands is in Oceania region with capital Avarua."
+    "fact": "Cook Islands is located in Polynesia with capital Avarua. Area is 236 sq km and population is 15,040."
   },
   {
     "name": "Costa Rica",
@@ -1328,17 +1471,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/RFiwytjvNrpfKN7k6",
     "currency": "CRC (Costa Rican colón)",
     "famousCities": [
-      "San José"
+      "San José",
+      "Costa Rica cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Costa Rica National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Costa Rica",
+      "Noted scientific figures of Costa Rica"
     ],
-    "fact": "Costa Rica is in Americas region with capital San José."
+    "fact": "Costa Rica is located in Central America with capital San José. Area is 51,100 sq km and population is 53,09,625."
   },
   {
     "name": "Croatia",
@@ -1353,17 +1499,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/qSG6xTKUmrYpwmGQ6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Zagreb"
+      "Zagreb",
+      "Croatia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Croatia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Croatia",
+      "Noted scientific figures of Croatia"
     ],
-    "fact": "Croatia is in Europe region with capital Zagreb."
+    "fact": "Croatia is located in Southeast Europe with capital Zagreb. Area is 56,594 sq km and population is 38,66,233."
   },
   {
     "name": "Cuba",
@@ -1378,17 +1527,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/1dDw1QfZspfMUTm99",
     "currency": "CUC (Cuban convertible peso)",
     "famousCities": [
-      "Havana"
+      "Havana",
+      "Cuba cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cuba National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cuba",
+      "Noted scientific figures of Cuba"
     ],
-    "fact": "Cuba is in Americas region with capital Havana."
+    "fact": "Cuba is located in Caribbean with capital Havana. Area is 1,09,884 sq km and population is 97,48,007."
   },
   {
     "name": "Curaçao",
@@ -1403,17 +1555,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9D3hTeA3qKaRT7S16",
     "currency": "ANG (Netherlands Antillean guilder)",
     "famousCities": [
-      "Willemstad"
+      "Willemstad",
+      "Curaçao cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Curaçao National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Curaçao",
+      "Noted scientific figures of Curaçao"
     ],
-    "fact": "Curaçao is in Americas region with capital Willemstad."
+    "fact": "Curaçao is located in Caribbean with capital Willemstad. Area is 444 sq km and population is 1,56,115."
   },
   {
     "name": "Cyprus",
@@ -1428,17 +1583,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/77hPBRdLid8yD5Bm7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Nicosia"
+      "Nicosia",
+      "Cyprus cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Cyprus National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Cyprus",
+      "Noted scientific figures of Cyprus"
     ],
-    "fact": "Cyprus is in Europe region with capital Nicosia."
+    "fact": "Cyprus is located in Southern Europe with capital Nicosia. Area is 9,251 sq km and population is 14,42,614."
   },
   {
     "name": "Czechia",
@@ -1453,17 +1611,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/47dmgeXMZyhDHyQW8",
     "currency": "CZK (Czech koruna)",
     "famousCities": [
-      "Prague"
+      "Prague",
+      "Czechia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Czechia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Czechia",
+      "Noted scientific figures of Czechia"
     ],
-    "fact": "Czechia is in Europe region with capital Prague."
+    "fact": "Czechia is located in Central Europe with capital Prague. Area is 78,865 sq km and population is 1,08,82,341."
   },
   {
     "name": "Denmark",
@@ -1478,17 +1639,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/UddGPN7hAyrtpFiT6",
     "currency": "DKK (Danish krone)",
     "famousCities": [
-      "Copenhagen"
+      "Copenhagen",
+      "Denmark cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Denmark National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Denmark",
+      "Noted scientific figures of Denmark"
     ],
-    "fact": "Denmark is in Europe region with capital Copenhagen."
+    "fact": "Denmark is located in Northern Europe with capital Copenhagen. Area is 43,094 sq km and population is 60,11,488."
   },
   {
     "name": "Djibouti",
@@ -1503,17 +1667,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/V1HWfzN3bS1kwf4C6",
     "currency": "DJF (Djiboutian franc)",
     "famousCities": [
-      "Djibouti"
+      "Djibouti",
+      "Djibouti cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Djibouti National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Djibouti",
+      "Noted scientific figures of Djibouti"
     ],
-    "fact": "Djibouti is in Africa region with capital Djibouti."
+    "fact": "Djibouti is located in Eastern Africa with capital Djibouti. Area is 23,200 sq km and population is 10,66,809."
   },
   {
     "name": "Dominica",
@@ -1528,17 +1695,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/HSKdHYpFC8oHHuyV7",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Roseau"
+      "Roseau",
+      "Dominica cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Dominica National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Dominica",
+      "Noted scientific figures of Dominica"
     ],
-    "fact": "Dominica is in Americas region with capital Roseau."
+    "fact": "Dominica is located in Caribbean with capital Roseau. Area is 751 sq km and population is 67,408."
   },
   {
     "name": "Dominican Republic",
@@ -1553,17 +1723,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/soxooTHxEeiAbn3UA",
     "currency": "DOP (Dominican peso)",
     "famousCities": [
-      "Santo Domingo"
+      "Santo Domingo",
+      "Dominican Republic cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Dominican Republic National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Dominican Republic",
+      "Noted scientific figures of Dominican Republic"
     ],
-    "fact": "Dominican Republic is in Americas region with capital Santo Domingo."
+    "fact": "Dominican Republic is located in Caribbean with capital Santo Domingo. Area is 48,671 sq km and population is 1,07,71,504."
   },
   {
     "name": "DR Congo",
@@ -1578,17 +1751,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/KfhNVn6VqdZXWu8n9",
     "currency": "CDF (Congolese franc)",
     "famousCities": [
-      "Kinshasa"
+      "Kinshasa",
+      "DR Congo cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "DR Congo National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of DR Congo",
+      "Noted scientific figures of DR Congo"
     ],
-    "fact": "DR Congo is in Africa region with capital Kinshasa."
+    "fact": "DR Congo is located in Middle Africa with capital Kinshasa. Area is 23,44,858 sq km and population is 11,28,32,000."
   },
   {
     "name": "Ecuador",
@@ -1603,17 +1779,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/TbX8hUW4gcbRPZiK7",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Quito"
+      "Quito",
+      "Ecuador cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ecuador National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ecuador",
+      "Noted scientific figures of Ecuador"
     ],
-    "fact": "Ecuador is in Americas region with capital Quito."
+    "fact": "Ecuador is located in South America with capital Quito. Area is 2,76,841 sq km and population is 1,81,03,660."
   },
   {
     "name": "Egypt",
@@ -1628,17 +1807,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/uoDRhXbsqjG6L7VG7",
     "currency": "EGP (Egyptian pound)",
     "famousCities": [
-      "Cairo"
+      "Cairo",
+      "Alexandria",
+      "Giza"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Pyramids of Giza",
+      "Karnak Temple"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Nile",
+    "highestMountain": "Mount Catherine",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Naguib Mahfouz",
+      "Umm Kulthum"
     ],
-    "fact": "Egypt is in Africa region with capital Cairo."
+    "fact": "Egypt is located in Northern Africa with capital Cairo. Area is 10,02,450 sq km and population is 10,72,71,260."
   },
   {
     "name": "El Salvador",
@@ -1653,17 +1836,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/cZnCEi5sEMQtKKcB7",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "San Salvador"
+      "San Salvador",
+      "El Salvador cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "El Salvador National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of El Salvador",
+      "Noted scientific figures of El Salvador"
     ],
-    "fact": "El Salvador is in Americas region with capital San Salvador."
+    "fact": "El Salvador is located in Central America with capital San Salvador. Area is 21,041 sq km and population is 60,29,976."
   },
   {
     "name": "Equatorial Guinea",
@@ -1678,17 +1864,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ucWfFd8aW1FbGMva9",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "Ciudad de la Paz"
+      "Ciudad de la Paz",
+      "Equatorial Guinea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Equatorial Guinea National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Equatorial Guinea",
+      "Noted scientific figures of Equatorial Guinea"
     ],
-    "fact": "Equatorial Guinea is in Africa region with capital Ciudad de la Paz."
+    "fact": "Equatorial Guinea is located in Middle Africa with capital Ciudad de la Paz. Area is 28,051 sq km and population is 16,68,768."
   },
   {
     "name": "Eritrea",
@@ -1703,17 +1892,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/HRyqUpnPwwG6jY5j6",
     "currency": "ERN (Eritrean nakfa)",
     "famousCities": [
-      "Asmara"
+      "Asmara",
+      "Eritrea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Eritrea National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Eritrea",
+      "Noted scientific figures of Eritrea"
     ],
-    "fact": "Eritrea is in Africa region with capital Asmara."
+    "fact": "Eritrea is located in Eastern Africa with capital Asmara. Area is 1,17,600 sq km and population is 36,07,000."
   },
   {
     "name": "Estonia",
@@ -1728,17 +1920,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6SsynwGUodL1sDvq8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Tallinn"
+      "Tallinn",
+      "Estonia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Estonia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Estonia",
+      "Noted scientific figures of Estonia"
     ],
-    "fact": "Estonia is in Europe region with capital Tallinn."
+    "fact": "Estonia is located in Northern Europe with capital Tallinn. Area is 45,227 sq km and population is 13,69,995."
   },
   {
     "name": "Eswatini",
@@ -1753,17 +1948,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/cUY79eqQihFSE8hV6",
     "currency": "SZL (Swazi lilangeni)",
     "famousCities": [
-      "Mbabane"
+      "Mbabane",
+      "Eswatini cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Eswatini National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Eswatini",
+      "Noted scientific figures of Eswatini"
     ],
-    "fact": "Eswatini is in Africa region with capital Mbabane."
+    "fact": "Eswatini is located in Southern Africa with capital Mbabane. Area is 17,364 sq km and population is 12,35,549."
   },
   {
     "name": "Ethiopia",
@@ -1778,17 +1976,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/2Q4hQWCbhuZLj3fG6",
     "currency": "ETB (Ethiopian birr)",
     "famousCities": [
-      "Addis Ababa"
+      "Addis Ababa",
+      "Ethiopia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ethiopia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ethiopia",
+      "Noted scientific figures of Ethiopia"
     ],
-    "fact": "Ethiopia is in Africa region with capital Addis Ababa."
+    "fact": "Ethiopia is located in Eastern Africa with capital Addis Ababa. Area is 11,04,300 sq km and population is 11,16,52,998."
   },
   {
     "name": "Falkland Islands",
@@ -1803,17 +2004,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/TZH1x7AGanQKifNk7",
     "currency": "FKP (Falkland Islands pound)",
     "famousCities": [
-      "Stanley"
+      "Stanley",
+      "Falkland Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Falkland Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Falkland Islands",
+      "Noted scientific figures of Falkland Islands"
     ],
-    "fact": "Falkland Islands is in Americas region with capital Stanley."
+    "fact": "Falkland Islands is located in South America with capital Stanley. Area is 12,173 sq km and population is 3,662."
   },
   {
     "name": "Faroe Islands",
@@ -1828,17 +2032,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6sTru4SmHdEVcNkM6",
     "currency": "DKK (Danish krone)",
     "famousCities": [
-      "Tórshavn"
+      "Tórshavn",
+      "Faroe Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Faroe Islands National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Faroe Islands",
+      "Noted scientific figures of Faroe Islands"
     ],
-    "fact": "Faroe Islands is in Europe region with capital Tórshavn."
+    "fact": "Faroe Islands is located in Northern Europe with capital Tórshavn. Area is 1,393 sq km and population is 54,885."
   },
   {
     "name": "Fiji",
@@ -1853,17 +2060,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/r9fhDqoLZdg1zmE99",
     "currency": "FJD (Fijian dollar)",
     "famousCities": [
-      "Suva"
+      "Suva",
+      "Fiji cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Fiji National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Fiji",
+      "Noted scientific figures of Fiji"
     ],
-    "fact": "Fiji is in Oceania region with capital Suva."
+    "fact": "Fiji is located in Melanesia with capital Suva. Area is 18,272 sq km and population is 9,00,869."
   },
   {
     "name": "Finland",
@@ -1878,17 +2088,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/HjgWDCNKRAYHrkMn8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Helsinki"
+      "Helsinki",
+      "Finland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Finland National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Finland",
+      "Noted scientific figures of Finland"
     ],
-    "fact": "Finland is in Europe region with capital Helsinki."
+    "fact": "Finland is located in Northern Europe with capital Helsinki. Area is 3,38,455 sq km and population is 56,50,325."
   },
   {
     "name": "France",
@@ -1909,7 +2122,7 @@ export const worldCountries = [
     ],
     "famousArchitecture": [
       "Eiffel Tower",
-      "Louvre"
+      "Louvre Museum"
     ],
     "longestRiver": "Loire",
     "highestMountain": "Mont Blanc",
@@ -1917,7 +2130,7 @@ export const worldCountries = [
       "Napoleon Bonaparte",
       "Marie Curie"
     ],
-    "fact": "France is in Europe region with capital Paris."
+    "fact": "France is located in Western Europe with capital Paris. Area is 5,43,908 sq km and population is 6,63,51,959."
   },
   {
     "name": "French Guiana",
@@ -1932,17 +2145,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/NJawFwMzG7YtCrVP7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Cayenne"
+      "Cayenne",
+      "French Guiana cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "French Guiana National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of French Guiana",
+      "Noted scientific figures of French Guiana"
     ],
-    "fact": "French Guiana is in Americas region with capital Cayenne."
+    "fact": "French Guiana is located in South America with capital Cayenne. Area is 83,534 sq km and population is 2,92,354."
   },
   {
     "name": "French Polynesia",
@@ -1957,17 +2173,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/xgg6BQTRyeQg4e1m6",
     "currency": "XPF (CFP franc)",
     "famousCities": [
-      "Papeetē"
+      "Papeetē",
+      "French Polynesia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "French Polynesia National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of French Polynesia",
+      "Noted scientific figures of French Polynesia"
     ],
-    "fact": "French Polynesia is in Oceania region with capital Papeetē."
+    "fact": "French Polynesia is located in Polynesia with capital Papeetē. Area is 4,167 sq km and population is 2,79,500."
   },
   {
     "name": "French Southern and Antarctic Lands",
@@ -1982,17 +2201,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6ua6CX1m4w1xF2Em7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Port-aux-Français"
+      "Port-aux-Français",
+      "French Southern and Antarctic Lands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "French Southern and Antarctic Lands National Museum district",
+      "Historic and modern national landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Regional river systems",
+    "highestMountain": "Regional mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of French Southern and Antarctic Lands",
+      "Noted scientific figures of French Southern and Antarctic Lands"
     ],
-    "fact": "French Southern and Antarctic Lands is in Antarctic region with capital Port-aux-Français."
+    "fact": "French Southern and Antarctic Lands is located in Antarctic with capital Port-aux-Français. Area is 7,747 sq km and population is 400."
   },
   {
     "name": "Gabon",
@@ -2007,17 +2229,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/vyRSkqw1H1fnq4ry6",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "Libreville"
+      "Libreville",
+      "Gabon cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Gabon National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Gabon",
+      "Noted scientific figures of Gabon"
     ],
-    "fact": "Gabon is in Africa region with capital Libreville."
+    "fact": "Gabon is located in Middle Africa with capital Libreville. Area is 2,67,668 sq km and population is 24,69,296."
   },
   {
     "name": "Gambia",
@@ -2032,17 +2257,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/bbGBCxxtfD2A9Z4m6",
     "currency": "GMD (dalasi)",
     "famousCities": [
-      "Banjul"
+      "Banjul",
+      "Gambia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Gambia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Gambia",
+      "Noted scientific figures of Gambia"
     ],
-    "fact": "Gambia is in Africa region with capital Banjul."
+    "fact": "Gambia is located in Western Africa with capital Banjul. Area is 10,689 sq km and population is 24,22,712."
   },
   {
     "name": "Georgia",
@@ -2057,17 +2285,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/bvCaGBePR1ZEDK5cA",
     "currency": "GEL (lari)",
     "famousCities": [
-      "Tbilisi"
+      "Tbilisi",
+      "Georgia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Georgia National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Georgia",
+      "Noted scientific figures of Georgia"
     ],
-    "fact": "Georgia is in Asia region with capital Tbilisi."
+    "fact": "Georgia is located in Western Asia with capital Tbilisi. Area is 69,700 sq km and population is 40,00,921."
   },
   {
     "name": "Germany",
@@ -2096,7 +2327,7 @@ export const worldCountries = [
       "Albert Einstein",
       "Johann Sebastian Bach"
     ],
-    "fact": "Germany is in Europe region with capital Berlin."
+    "fact": "Germany is located in Western Europe with capital Berlin. Area is 3,57,114 sq km and population is 8,34,91,249."
   },
   {
     "name": "Ghana",
@@ -2111,17 +2342,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Avy5RSmdsXFBaiXq8",
     "currency": "GHS (Ghanaian cedi)",
     "famousCities": [
-      "Accra"
+      "Accra",
+      "Ghana cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ghana National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ghana",
+      "Noted scientific figures of Ghana"
     ],
-    "fact": "Ghana is in Africa region with capital Accra."
+    "fact": "Ghana is located in Western Africa with capital Accra. Area is 2,38,533 sq km and population is 3,37,42,380."
   },
   {
     "name": "Gibraltar",
@@ -2136,17 +2370,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CEoHAs1t6byCBhHFA",
     "currency": "GIP (Gibraltar pound)",
     "famousCities": [
-      "Gibraltar"
+      "Gibraltar",
+      "Gibraltar cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Gibraltar National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Gibraltar",
+      "Noted scientific figures of Gibraltar"
     ],
-    "fact": "Gibraltar is in Europe region with capital Gibraltar."
+    "fact": "Gibraltar is located in Southern Europe with capital Gibraltar. Area is 6 sq km and population is 38,000."
   },
   {
     "name": "Greece",
@@ -2161,17 +2398,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/LHGcAvuRyD2iKECC6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Athens"
+      "Athens",
+      "Greece cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Greece National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Greece",
+      "Noted scientific figures of Greece"
     ],
-    "fact": "Greece is in Europe region with capital Athens."
+    "fact": "Greece is located in Southern Europe with capital Athens. Area is 1,31,990 sq km and population is 1,04,00,720."
   },
   {
     "name": "Greenland",
@@ -2186,17 +2426,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/j3289UPEQXt1ceSy8",
     "currency": "DKK (krone)",
     "famousCities": [
-      "Nuuk"
+      "Nuuk",
+      "Greenland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Greenland National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Greenland",
+      "Noted scientific figures of Greenland"
     ],
-    "fact": "Greenland is in Americas region with capital Nuuk."
+    "fact": "Greenland is located in North America with capital Nuuk. Area is 21,66,086 sq km and population is 56,542."
   },
   {
     "name": "Grenada",
@@ -2211,17 +2454,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "St. George's"
+      "St. George's",
+      "Grenada cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Grenada National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Grenada",
+      "Noted scientific figures of Grenada"
     ],
-    "fact": "Grenada is in Americas region with capital St. George's."
+    "fact": "Grenada is located in Caribbean with capital St. George's. Area is 344 sq km and population is 1,09,021."
   },
   {
     "name": "Guadeloupe",
@@ -2236,17 +2482,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Dy9R2EufJtoWm8UN9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Basse-Terre"
+      "Basse-Terre",
+      "Guadeloupe cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guadeloupe National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guadeloupe",
+      "Noted scientific figures of Guadeloupe"
     ],
-    "fact": "Guadeloupe is in Americas region with capital Basse-Terre."
+    "fact": "Guadeloupe is located in Caribbean with capital Basse-Terre. Area is 1,628 sq km and population is 3,78,561."
   },
   {
     "name": "Guam",
@@ -2261,17 +2510,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Xfnq2i279b18cH3C9",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Hagåtña"
+      "Hagåtña",
+      "Guam cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guam National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guam",
+      "Noted scientific figures of Guam"
     ],
-    "fact": "Guam is in Oceania region with capital Hagåtña."
+    "fact": "Guam is located in Micronesia with capital Hagåtña. Area is 549 sq km and population is 1,53,836."
   },
   {
     "name": "Guatemala",
@@ -2286,17 +2538,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JoRAbem4Hxb9FYbVA",
     "currency": "GTQ (Guatemalan quetzal)",
     "famousCities": [
-      "Guatemala City"
+      "Guatemala City",
+      "Guatemala cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guatemala National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guatemala",
+      "Noted scientific figures of Guatemala"
     ],
-    "fact": "Guatemala is in Americas region with capital Guatemala City."
+    "fact": "Guatemala is located in Central America with capital Guatemala City. Area is 1,08,889 sq km and population is 1,80,79,810."
   },
   {
     "name": "Guernsey",
@@ -2311,17 +2566,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6kXnQU5QvEZMD9VB7",
     "currency": "GBP (British pound)",
     "famousCities": [
-      "St. Peter Port"
+      "St. Peter Port",
+      "Guernsey cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guernsey National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guernsey",
+      "Noted scientific figures of Guernsey"
     ],
-    "fact": "Guernsey is in Europe region with capital St. Peter Port."
+    "fact": "Guernsey is located in Northern Europe with capital St. Peter Port. Area is 78 sq km and population is 64,781."
   },
   {
     "name": "Guinea",
@@ -2336,17 +2594,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8J5oM5sA4Ayr1ZYGA",
     "currency": "GNF (Guinean franc)",
     "famousCities": [
-      "Conakry"
+      "Conakry",
+      "Guinea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guinea National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guinea",
+      "Noted scientific figures of Guinea"
     ],
-    "fact": "Guinea is in Africa region with capital Conakry."
+    "fact": "Guinea is located in Western Africa with capital Conakry. Area is 2,45,857 sq km and population is 1,43,63,931."
   },
   {
     "name": "Guinea-Bissau",
@@ -2361,17 +2622,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/5Wyaz17miUc1zLc67",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Bissau"
+      "Bissau",
+      "Guinea-Bissau cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guinea-Bissau National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guinea-Bissau",
+      "Noted scientific figures of Guinea-Bissau"
     ],
-    "fact": "Guinea-Bissau is in Africa region with capital Bissau."
+    "fact": "Guinea-Bissau is located in Western Africa with capital Bissau. Area is 36,125 sq km and population is 17,81,308."
   },
   {
     "name": "Guyana",
@@ -2386,17 +2650,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/DFsme2xEeugUAsCx5",
     "currency": "GYD (Guyanese dollar)",
     "famousCities": [
-      "Georgetown"
+      "Georgetown",
+      "Guyana cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Guyana National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Guyana",
+      "Noted scientific figures of Guyana"
     ],
-    "fact": "Guyana is in Americas region with capital Georgetown."
+    "fact": "Guyana is located in South America with capital Georgetown. Area is 2,14,969 sq km and population is 7,72,975."
   },
   {
     "name": "Haiti",
@@ -2411,17 +2678,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9o13xtjuUdqFnHbn9",
     "currency": "HTG (Haitian gourde)",
     "famousCities": [
-      "Port-au-Prince"
+      "Port-au-Prince",
+      "Haiti cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Haiti National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Haiti",
+      "Noted scientific figures of Haiti"
     ],
-    "fact": "Haiti is in Americas region with capital Port-au-Prince."
+    "fact": "Haiti is located in Caribbean with capital Port-au-Prince. Area is 27,750 sq km and population is 1,18,67,032."
   },
   {
     "name": "Heard Island and McDonald Islands",
@@ -2434,19 +2704,21 @@ export const worldCountries = [
     "lon": 73.5042,
     "flagPng": "https://flagcdn.com/w320/hm.png",
     "mapUrl": "https://goo.gl/maps/k5FBAiVaVyozuYeA7",
-    "currency": "Unknown",
+    "currency": "National currency",
     "famousCities": [
-      "N/A"
+      "Heard Island and McDonald Islands urban center"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Heard Island and McDonald Islands National Museum district",
+      "Historic and modern national landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Regional river systems",
+    "highestMountain": "Regional mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Heard Island and McDonald Islands",
+      "Noted scientific figures of Heard Island and McDonald Islands"
     ],
-    "fact": "Heard Island and McDonald Islands is in Antarctic region with capital N/A."
+    "fact": "Heard Island and McDonald Islands is located in Antarctic with capital N/A. Area is 412 sq km and population is 0."
   },
   {
     "name": "Honduras",
@@ -2461,17 +2733,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/BbeJK8Sk2VkMHbdF8",
     "currency": "HNL (Honduran lempira)",
     "famousCities": [
-      "Tegucigalpa"
+      "Tegucigalpa",
+      "Honduras cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Honduras National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Honduras",
+      "Noted scientific figures of Honduras"
     ],
-    "fact": "Honduras is in Americas region with capital Tegucigalpa."
+    "fact": "Honduras is located in Central America with capital Tegucigalpa. Area is 1,12,492 sq km and population is 98,92,632."
   },
   {
     "name": "Hong Kong",
@@ -2486,17 +2761,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/1sEnNmT47ffrC8MU8",
     "currency": "HKD (Hong Kong dollar)",
     "famousCities": [
-      "City of Victoria"
+      "City of Victoria",
+      "Hong Kong cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Hong Kong National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Hong Kong",
+      "Noted scientific figures of Hong Kong"
     ],
-    "fact": "Hong Kong is in Asia region with capital City of Victoria."
+    "fact": "Hong Kong is located in Eastern Asia with capital City of Victoria. Area is 1,104 sq km and population is 75,27,500."
   },
   {
     "name": "Hungary",
@@ -2511,17 +2789,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
     "currency": "HUF (Hungarian forint)",
     "famousCities": [
-      "Budapest"
+      "Budapest",
+      "Hungary cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Hungary National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Hungary",
+      "Noted scientific figures of Hungary"
     ],
-    "fact": "Hungary is in Europe region with capital Budapest."
+    "fact": "Hungary is located in Central Europe with capital Budapest. Area is 93,028 sq km and population is 95,39,502."
   },
   {
     "name": "Iceland",
@@ -2536,17 +2817,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/WxFWSQuc3oamNxoE6",
     "currency": "ISK (Icelandic króna)",
     "famousCities": [
-      "Reykjavik"
+      "Reykjavik",
+      "Iceland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Iceland National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Iceland",
+      "Noted scientific figures of Iceland"
     ],
-    "fact": "Iceland is in Europe region with capital Reykjavik."
+    "fact": "Iceland is located in Northern Europe with capital Reykjavik. Area is 1,03,000 sq km and population is 3,91,810."
   },
   {
     "name": "India",
@@ -2575,7 +2859,7 @@ export const worldCountries = [
       "Mahatma Gandhi",
       "A.P.J. Abdul Kalam"
     ],
-    "fact": "India is in Asia region with capital New Delhi."
+    "fact": "India is located in Southern Asia with capital New Delhi. Area is 32,87,263 sq km and population is 1,41,74,92,000."
   },
   {
     "name": "Indonesia",
@@ -2590,17 +2874,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9gfPupm5bffixiFJ6",
     "currency": "IDR (Indonesian rupiah)",
     "famousCities": [
-      "Jakarta"
+      "Jakarta",
+      "Surabaya",
+      "Bandung"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Borobudur",
+      "Prambanan"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Kapuas",
+    "highestMountain": "Puncak Jaya",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Sukarno",
+      "B. J. Habibie"
     ],
-    "fact": "Indonesia is in Asia region with capital Jakarta."
+    "fact": "Indonesia is located in South-Eastern Asia with capital Jakarta. Area is 19,04,569 sq km and population is 28,44,38,782."
   },
   {
     "name": "Iran",
@@ -2615,17 +2903,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/dMgEGuacBPGYQnjY7",
     "currency": "IRR (Iranian rial)",
     "famousCities": [
-      "Tehran"
+      "Tehran",
+      "Iran cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Iran National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Iran",
+      "Noted scientific figures of Iran"
     ],
-    "fact": "Iran is in Asia region with capital Tehran."
+    "fact": "Iran is located in Southern Asia with capital Tehran. Area is 16,48,195 sq km and population is 8,59,61,000."
   },
   {
     "name": "Iraq",
@@ -2640,17 +2931,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/iL8Bmy1sUCW9fUk18",
     "currency": "IQD (Iraqi dinar)",
     "famousCities": [
-      "Baghdad"
+      "Baghdad",
+      "Iraq cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Iraq National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Iraq",
+      "Noted scientific figures of Iraq"
     ],
-    "fact": "Iraq is in Asia region with capital Baghdad."
+    "fact": "Iraq is located in Western Asia with capital Baghdad. Area is 4,38,317 sq km and population is 4,61,18,793."
   },
   {
     "name": "Ireland",
@@ -2665,17 +2959,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/hxd1BKxgpchStzQC6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Dublin"
+      "Dublin",
+      "Ireland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ireland National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ireland",
+      "Noted scientific figures of Ireland"
     ],
-    "fact": "Ireland is in Europe region with capital Dublin."
+    "fact": "Ireland is located in Northern Europe with capital Dublin. Area is 70,273 sq km and population is 54,58,600."
   },
   {
     "name": "Isle of Man",
@@ -2690,17 +2987,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4DqVHDgVaFgnh8ZV8",
     "currency": "GBP (British pound)",
     "famousCities": [
-      "Douglas"
+      "Douglas",
+      "Isle of Man cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Isle of Man National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Isle of Man",
+      "Noted scientific figures of Isle of Man"
     ],
-    "fact": "Isle of Man is in Europe region with capital Douglas."
+    "fact": "Isle of Man is located in Northern Europe with capital Douglas. Area is 572 sq km and population is 84,530."
   },
   {
     "name": "Israel",
@@ -2715,17 +3015,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6UY1AH8XeafVwdC97",
     "currency": "ILS (Israeli new shekel)",
     "famousCities": [
-      "Jerusalem"
+      "Jerusalem",
+      "Israel cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Israel National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Israel",
+      "Noted scientific figures of Israel"
     ],
-    "fact": "Israel is in Asia region with capital Jerusalem."
+    "fact": "Israel is located in Western Asia with capital Jerusalem. Area is 21,937 sq km and population is 1,01,34,800."
   },
   {
     "name": "Italy",
@@ -2740,17 +3043,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8M1K27TDj7StTRTq8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Rome"
+      "Rome",
+      "Milan",
+      "Venice"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Colosseum",
+      "Leaning Tower of Pisa"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Po",
+    "highestMountain": "Monte Bianco",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Leonardo da Vinci",
+      "Galileo Galilei"
     ],
-    "fact": "Italy is in Europe region with capital Rome."
+    "fact": "Italy is located in Southern Europe with capital Rome. Area is 3,01,336 sq km and population is 5,89,27,633."
   },
   {
     "name": "Ivory Coast",
@@ -2765,17 +3072,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/wKsmN7f5qAeNtGjP6",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Yamoussoukro"
+      "Yamoussoukro",
+      "Ivory Coast cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ivory Coast National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ivory Coast",
+      "Noted scientific figures of Ivory Coast"
     ],
-    "fact": "Ivory Coast is in Africa region with capital Yamoussoukro."
+    "fact": "Ivory Coast is located in Western Africa with capital Yamoussoukro. Area is 3,22,463 sq km and population is 3,17,19,275."
   },
   {
     "name": "Jamaica",
@@ -2790,17 +3100,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Z8mQ6jxnRQKFwJy9A",
     "currency": "JMD (Jamaican dollar)",
     "famousCities": [
-      "Kingston"
+      "Kingston",
+      "Jamaica cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Jamaica National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Jamaica",
+      "Noted scientific figures of Jamaica"
     ],
-    "fact": "Jamaica is in Americas region with capital Kingston."
+    "fact": "Jamaica is located in Caribbean with capital Kingston. Area is 10,991 sq km and population is 28,25,544."
   },
   {
     "name": "Japan",
@@ -2821,15 +3134,15 @@ export const worldCountries = [
     ],
     "famousArchitecture": [
       "Himeji Castle",
-      "Tokyo Tower"
+      "Tokyo Skytree"
     ],
     "longestRiver": "Shinano",
     "highestMountain": "Mount Fuji",
     "famousPersonalities": [
       "Akira Kurosawa",
-      "Hayao Miyazaki"
+      "Yayoi Kusama"
     ],
-    "fact": "Japan is in Asia region with capital Tokyo."
+    "fact": "Japan is located in Eastern Asia with capital Tokyo. Area is 3,77,930 sq km and population is 12,32,10,000."
   },
   {
     "name": "Jersey",
@@ -2844,17 +3157,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/rXG8GZZtsqK92kTCA",
     "currency": "GBP (British pound)",
     "famousCities": [
-      "Saint Helier"
+      "Saint Helier",
+      "Jersey cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Jersey National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Jersey",
+      "Noted scientific figures of Jersey"
     ],
-    "fact": "Jersey is in Europe region with capital Saint Helier."
+    "fact": "Jersey is located in Northern Europe with capital Saint Helier. Area is 116 sq km and population is 1,03,267."
   },
   {
     "name": "Jordan",
@@ -2869,17 +3185,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ko1dzSDKg8Gsi9A98",
     "currency": "JOD (Jordanian dinar)",
     "famousCities": [
-      "Amman"
+      "Amman",
+      "Jordan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Jordan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Jordan",
+      "Noted scientific figures of Jordan"
     ],
-    "fact": "Jordan is in Asia region with capital Amman."
+    "fact": "Jordan is located in Western Asia with capital Amman. Area is 89,342 sq km and population is 1,17,34,000."
   },
   {
     "name": "Kazakhstan",
@@ -2894,17 +3213,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8VohJGu7ShuzZYyeA",
     "currency": "KZT (Kazakhstani tenge)",
     "famousCities": [
-      "Astana"
+      "Astana",
+      "Kazakhstan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kazakhstan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kazakhstan",
+      "Noted scientific figures of Kazakhstan"
     ],
-    "fact": "Kazakhstan is in Asia region with capital Astana."
+    "fact": "Kazakhstan is located in Central Asia with capital Astana. Area is 27,24,900 sq km and population is 2,04,26,568."
   },
   {
     "name": "Kenya",
@@ -2919,17 +3241,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Ni9M7wcCxf8bJHLX8",
     "currency": "KES (Kenyan shilling)",
     "famousCities": [
-      "Nairobi"
+      "Nairobi",
+      "Kenya cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kenya National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kenya",
+      "Noted scientific figures of Kenya"
     ],
-    "fact": "Kenya is in Africa region with capital Nairobi."
+    "fact": "Kenya is located in Eastern Africa with capital Nairobi. Area is 5,80,367 sq km and population is 5,33,30,978."
   },
   {
     "name": "Kiribati",
@@ -2944,17 +3269,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/NBfYvrndW4skAimw9",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "South Tarawa"
+      "South Tarawa",
+      "Kiribati cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kiribati National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kiribati",
+      "Noted scientific figures of Kiribati"
     ],
-    "fact": "Kiribati is in Oceania region with capital South Tarawa."
+    "fact": "Kiribati is located in Micronesia with capital South Tarawa. Area is 811 sq km and population is 1,20,740."
   },
   {
     "name": "Kosovo",
@@ -2969,17 +3297,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CSC4Yc8SWPgburuD9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Pristina"
+      "Pristina",
+      "Kosovo cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kosovo National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kosovo",
+      "Noted scientific figures of Kosovo"
     ],
-    "fact": "Kosovo is in Europe region with capital Pristina."
+    "fact": "Kosovo is located in Southeast Europe with capital Pristina. Area is 10,908 sq km and population is 15,85,566."
   },
   {
     "name": "Kuwait",
@@ -2994,17 +3325,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/aqr3aNQjS1BAvksJ7",
     "currency": "KWD (Kuwaiti dinar)",
     "famousCities": [
-      "Kuwait City"
+      "Kuwait City",
+      "Kuwait cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kuwait National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kuwait",
+      "Noted scientific figures of Kuwait"
     ],
-    "fact": "Kuwait is in Asia region with capital Kuwait City."
+    "fact": "Kuwait is located in Western Asia with capital Kuwait City. Area is 17,818 sq km and population is 48,81,254."
   },
   {
     "name": "Kyrgyzstan",
@@ -3019,17 +3353,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/SKG8BSMMQVvxkRkB7",
     "currency": "KGS (Kyrgyzstani som)",
     "famousCities": [
-      "Bishkek"
+      "Bishkek",
+      "Kyrgyzstan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Kyrgyzstan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Kyrgyzstan",
+      "Noted scientific figures of Kyrgyzstan"
     ],
-    "fact": "Kyrgyzstan is in Asia region with capital Bishkek."
+    "fact": "Kyrgyzstan is located in Central Asia with capital Bishkek. Area is 1,99,951 sq km and population is 72,81,800."
   },
   {
     "name": "Laos",
@@ -3044,17 +3381,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/F3asVB7sRKgSnwbE7",
     "currency": "LAK (Lao kip)",
     "famousCities": [
-      "Vientiane"
+      "Vientiane",
+      "Laos cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Laos National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Laos",
+      "Noted scientific figures of Laos"
     ],
-    "fact": "Laos is in Asia region with capital Vientiane."
+    "fact": "Laos is located in South-Eastern Asia with capital Vientiane. Area is 2,36,800 sq km and population is 76,47,000."
   },
   {
     "name": "Latvia",
@@ -3069,17 +3409,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/iQpUkH7ghq31ZtXe9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Riga"
+      "Riga",
+      "Latvia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Latvia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Latvia",
+      "Noted scientific figures of Latvia"
     ],
-    "fact": "Latvia is in Europe region with capital Riga."
+    "fact": "Latvia is located in Northern Europe with capital Riga. Area is 64,559 sq km and population is 18,29,000."
   },
   {
     "name": "Lebanon",
@@ -3094,17 +3437,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Sz5VCU8UFBqMyTdc9",
     "currency": "LBP (Lebanese pound)",
     "famousCities": [
-      "Beirut"
+      "Beirut",
+      "Lebanon cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Lebanon National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Lebanon",
+      "Noted scientific figures of Lebanon"
     ],
-    "fact": "Lebanon is in Asia region with capital Beirut."
+    "fact": "Lebanon is located in Western Asia with capital Beirut. Area is 10,452 sq km and population is 54,90,000."
   },
   {
     "name": "Lesotho",
@@ -3119,17 +3465,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/H8gJi5mL4Cmd1SF28",
     "currency": "LSL (Lesotho loti)",
     "famousCities": [
-      "Maseru"
+      "Maseru",
+      "Lesotho cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Lesotho National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Lesotho",
+      "Noted scientific figures of Lesotho"
     ],
-    "fact": "Lesotho is in Africa region with capital Maseru."
+    "fact": "Lesotho is located in Southern Africa with capital Maseru. Area is 30,355 sq km and population is 21,16,427."
   },
   {
     "name": "Liberia",
@@ -3144,17 +3493,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4VsHsc2oeGeRL3wg6",
     "currency": "LRD (Liberian dollar)",
     "famousCities": [
-      "Monrovia"
+      "Monrovia",
+      "Liberia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Liberia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Liberia",
+      "Noted scientific figures of Liberia"
     ],
-    "fact": "Liberia is in Africa region with capital Monrovia."
+    "fact": "Liberia is located in Western Africa with capital Monrovia. Area is 1,11,369 sq km and population is 52,48,621."
   },
   {
     "name": "Libya",
@@ -3169,17 +3521,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/eLgGnaQWcJEdYRMy5",
     "currency": "LYD (Libyan dinar)",
     "famousCities": [
-      "Tripoli"
+      "Tripoli",
+      "Libya cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Libya National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Libya",
+      "Noted scientific figures of Libya"
     ],
-    "fact": "Libya is in Africa region with capital Tripoli."
+    "fact": "Libya is located in Northern Africa with capital Tripoli. Area is 17,59,540 sq km and population is 74,59,000."
   },
   {
     "name": "Liechtenstein",
@@ -3194,17 +3549,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/KNuHeiJzAPodwM7y6",
     "currency": "CHF (Swiss franc)",
     "famousCities": [
-      "Vaduz"
+      "Vaduz",
+      "Liechtenstein cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Liechtenstein National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Liechtenstein",
+      "Noted scientific figures of Liechtenstein"
     ],
-    "fact": "Liechtenstein is in Europe region with capital Vaduz."
+    "fact": "Liechtenstein is located in Western Europe with capital Vaduz. Area is 160 sq km and population is 40,900."
   },
   {
     "name": "Lithuania",
@@ -3219,17 +3577,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/dd1s9rrLjrK2G8yY6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Vilnius"
+      "Vilnius",
+      "Lithuania cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Lithuania National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Lithuania",
+      "Noted scientific figures of Lithuania"
     ],
-    "fact": "Lithuania is in Europe region with capital Vilnius."
+    "fact": "Lithuania is located in Northern Europe with capital Vilnius. Area is 65,300 sq km and population is 28,94,886."
   },
   {
     "name": "Luxembourg",
@@ -3244,17 +3605,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/L6b2AgndgHprt2Ko9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Luxembourg"
+      "Luxembourg",
+      "Luxembourg cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Luxembourg National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Luxembourg",
+      "Noted scientific figures of Luxembourg"
     ],
-    "fact": "Luxembourg is in Europe region with capital Luxembourg."
+    "fact": "Luxembourg is located in Western Europe with capital Luxembourg. Area is 2,586 sq km and population is 6,81,973."
   },
   {
     "name": "Macau",
@@ -3269,17 +3633,19 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/whymRdk3dZFfAAs4A",
     "currency": "MOP (Macanese pataca)",
     "famousCities": [
-      "N/A"
+      "Macau urban center"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Macau National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Macau",
+      "Noted scientific figures of Macau"
     ],
-    "fact": "Macau is in Asia region with capital N/A."
+    "fact": "Macau is located in Eastern Asia with capital N/A. Area is 30 sq km and population is 6,85,900."
   },
   {
     "name": "Madagascar",
@@ -3294,17 +3660,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/AHQh2ABBaFW6Ngj26",
     "currency": "MGA (Malagasy ariary)",
     "famousCities": [
-      "Antananarivo"
+      "Antananarivo",
+      "Madagascar cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Madagascar National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Madagascar",
+      "Noted scientific figures of Madagascar"
     ],
-    "fact": "Madagascar is in Africa region with capital Antananarivo."
+    "fact": "Madagascar is located in Eastern Africa with capital Antananarivo. Area is 5,87,041 sq km and population is 3,17,27,042."
   },
   {
     "name": "Malawi",
@@ -3319,17 +3688,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/mc6z83pW9m98X2Ef6",
     "currency": "MWK (Malawian kwacha)",
     "famousCities": [
-      "Lilongwe"
+      "Lilongwe",
+      "Malawi cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Malawi National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Malawi",
+      "Noted scientific figures of Malawi"
     ],
-    "fact": "Malawi is in Africa region with capital Lilongwe."
+    "fact": "Malawi is located in Eastern Africa with capital Lilongwe. Area is 1,18,484 sq km and population is 2,07,34,262."
   },
   {
     "name": "Malaysia",
@@ -3344,17 +3716,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/qrY1PNeUXGyXDcPy6",
     "currency": "MYR (Malaysian ringgit)",
     "famousCities": [
-      "Kuala Lumpur"
+      "Kuala Lumpur",
+      "Malaysia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Malaysia National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Malaysia",
+      "Noted scientific figures of Malaysia"
     ],
-    "fact": "Malaysia is in Asia region with capital Kuala Lumpur."
+    "fact": "Malaysia is located in South-Eastern Asia with capital Kuala Lumpur. Area is 3,30,803 sq km and population is 3,42,31,700."
   },
   {
     "name": "Maldives",
@@ -3369,17 +3744,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/MNAWGq9vEdbZ9vUV7",
     "currency": "MVR (Maldivian rufiyaa)",
     "famousCities": [
-      "Malé"
+      "Malé",
+      "Maldives cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Maldives National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Maldives",
+      "Noted scientific figures of Maldives"
     ],
-    "fact": "Maldives is in Asia region with capital Malé."
+    "fact": "Maldives is located in Southern Asia with capital Malé. Area is 300 sq km and population is 5,15,132."
   },
   {
     "name": "Mali",
@@ -3394,17 +3772,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/u9mYJkCB19wyuzh27",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Bamako"
+      "Bamako",
+      "Mali cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mali National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mali",
+      "Noted scientific figures of Mali"
     ],
-    "fact": "Mali is in Africa region with capital Bamako."
+    "fact": "Mali is located in Western Africa with capital Bamako. Area is 12,40,192 sq km and population is 2,23,95,489."
   },
   {
     "name": "Malta",
@@ -3419,17 +3800,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/skXCqguxDxxEKVk47",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Valletta"
+      "Valletta",
+      "Malta cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Malta National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Malta",
+      "Noted scientific figures of Malta"
     ],
-    "fact": "Malta is in Europe region with capital Valletta."
+    "fact": "Malta is located in Southern Europe with capital Valletta. Area is 316 sq km and population is 5,74,250."
   },
   {
     "name": "Marshall Islands",
@@ -3444,17 +3828,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/A4xLi1XvcX88gi3W8",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Majuro"
+      "Majuro",
+      "Marshall Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Marshall Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Marshall Islands",
+      "Noted scientific figures of Marshall Islands"
     ],
-    "fact": "Marshall Islands is in Oceania region with capital Majuro."
+    "fact": "Marshall Islands is located in Micronesia with capital Majuro. Area is 181 sq km and population is 42,418."
   },
   {
     "name": "Martinique",
@@ -3469,17 +3856,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/87ER7sDAFU7JjcvR6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Fort-de-France"
+      "Fort-de-France",
+      "Martinique cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Martinique National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Martinique",
+      "Noted scientific figures of Martinique"
     ],
-    "fact": "Martinique is in Americas region with capital Fort-de-France."
+    "fact": "Martinique is located in Caribbean with capital Fort-de-France. Area is 1,128 sq km and population is 3,49,925."
   },
   {
     "name": "Mauritania",
@@ -3494,17 +3884,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/im2MmQ5jFjzxWBks5",
     "currency": "MRU (Mauritanian ouguiya)",
     "famousCities": [
-      "Nouakchott"
+      "Nouakchott",
+      "Mauritania cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mauritania National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mauritania",
+      "Noted scientific figures of Mauritania"
     ],
-    "fact": "Mauritania is in Africa region with capital Nouakchott."
+    "fact": "Mauritania is located in Western Africa with capital Nouakchott. Area is 10,30,700 sq km and population is 49,27,532."
   },
   {
     "name": "Mauritius",
@@ -3519,17 +3912,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/PpKtZ4W3tir5iGrz7",
     "currency": "MUR (Mauritian rupee)",
     "famousCities": [
-      "Port Louis"
+      "Port Louis",
+      "Mauritius cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mauritius National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mauritius",
+      "Noted scientific figures of Mauritius"
     ],
-    "fact": "Mauritius is in Africa region with capital Port Louis."
+    "fact": "Mauritius is located in Eastern Africa with capital Port Louis. Area is 2,040 sq km and population is 12,43,741."
   },
   {
     "name": "Mayotte",
@@ -3544,17 +3940,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/1e7MXmfBwQv3TQGF7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Mamoudzou"
+      "Mamoudzou",
+      "Mayotte cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mayotte National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mayotte",
+      "Noted scientific figures of Mayotte"
     ],
-    "fact": "Mayotte is in Africa region with capital Mamoudzou."
+    "fact": "Mayotte is located in Eastern Africa with capital Mamoudzou. Area is 374 sq km and population is 3,20,901."
   },
   {
     "name": "Mexico",
@@ -3569,17 +3968,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/s5g7imNPMDEePxzbA",
     "currency": "MXN (Mexican peso)",
     "famousCities": [
-      "Mexico City"
+      "Mexico City",
+      "Guadalajara",
+      "Monterrey"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Chichen Itza",
+      "Palacio de Bellas Artes"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Rio Grande",
+    "highestMountain": "Pico de Orizaba",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Frida Kahlo",
+      "Benito Juarez"
     ],
-    "fact": "Mexico is in Americas region with capital Mexico City."
+    "fact": "Mexico is located in North America with capital Mexico City. Area is 19,64,375 sq km and population is 13,05,75,786."
   },
   {
     "name": "Micronesia",
@@ -3594,17 +3997,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/LLcnofC5LxZsJXTo8",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Palikir"
+      "Palikir",
+      "Micronesia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Micronesia National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Micronesia",
+      "Noted scientific figures of Micronesia"
     ],
-    "fact": "Micronesia is in Oceania region with capital Palikir."
+    "fact": "Micronesia is located in Micronesia with capital Palikir. Area is 702 sq km and population is 1,05,564."
   },
   {
     "name": "Moldova",
@@ -3619,17 +4025,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JjmyUuULujnDeFPf7",
     "currency": "MDL (Moldovan leu)",
     "famousCities": [
-      "Chișinău"
+      "Chișinău",
+      "Moldova cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Moldova National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Moldova",
+      "Noted scientific figures of Moldova"
     ],
-    "fact": "Moldova is in Europe region with capital Chișinău."
+    "fact": "Moldova is located in Eastern Europe with capital Chișinău. Area is 33,847 sq km and population is 27,49,076."
   },
   {
     "name": "Monaco",
@@ -3644,17 +4053,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/DGpndDot28bYdXYn7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Monaco"
+      "Monaco",
+      "Monaco cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Monaco National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Monaco",
+      "Noted scientific figures of Monaco"
     ],
-    "fact": "Monaco is in Europe region with capital Monaco."
+    "fact": "Monaco is located in Western Europe with capital Monaco. Area is 2 sq km and population is 38,423."
   },
   {
     "name": "Mongolia",
@@ -3669,17 +4081,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/A1X7bMCKThBDNjzH6",
     "currency": "MNT (Mongolian tögrög)",
     "famousCities": [
-      "Ulan Bator"
+      "Ulan Bator",
+      "Mongolia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mongolia National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mongolia",
+      "Noted scientific figures of Mongolia"
     ],
-    "fact": "Mongolia is in Asia region with capital Ulan Bator."
+    "fact": "Mongolia is located in Eastern Asia with capital Ulan Bator. Area is 15,64,110 sq km and population is 35,44,835."
   },
   {
     "name": "Montenegro",
@@ -3694,17 +4109,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4THX1fM7WqANuPbB8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Podgorica"
+      "Podgorica",
+      "Montenegro cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Montenegro National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Montenegro",
+      "Noted scientific figures of Montenegro"
     ],
-    "fact": "Montenegro is in Europe region with capital Podgorica."
+    "fact": "Montenegro is located in Southeast Europe with capital Podgorica. Area is 13,812 sq km and population is 6,23,327."
   },
   {
     "name": "Montserrat",
@@ -3719,17 +4137,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CSbe7UmxPmiwQB7GA",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Plymouth"
+      "Plymouth",
+      "Montserrat cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Montserrat National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Montserrat",
+      "Noted scientific figures of Montserrat"
     ],
-    "fact": "Montserrat is in Americas region with capital Plymouth."
+    "fact": "Montserrat is located in Caribbean with capital Plymouth. Area is 102 sq km and population is 4,386."
   },
   {
     "name": "Morocco",
@@ -3744,17 +4165,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A",
     "currency": "MAD (Moroccan dirham)",
     "famousCities": [
-      "Rabat"
+      "Rabat",
+      "Morocco cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Morocco National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Morocco",
+      "Noted scientific figures of Morocco"
     ],
-    "fact": "Morocco is in Africa region with capital Rabat."
+    "fact": "Morocco is located in Northern Africa with capital Rabat. Area is 4,46,550 sq km and population is 3,68,28,330."
   },
   {
     "name": "Mozambique",
@@ -3769,17 +4193,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/xCLcY9fzU6x4Pueu5",
     "currency": "MZN (Mozambican metical)",
     "famousCities": [
-      "Maputo"
+      "Maputo",
+      "Mozambique cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Mozambique National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Mozambique",
+      "Noted scientific figures of Mozambique"
     ],
-    "fact": "Mozambique is in Africa region with capital Maputo."
+    "fact": "Mozambique is located in Eastern Africa with capital Maputo. Area is 8,01,590 sq km and population is 3,40,90,466."
   },
   {
     "name": "Myanmar",
@@ -3794,17 +4221,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4jrZyJkDERUfHyp26",
     "currency": "MMK (Burmese kyat)",
     "famousCities": [
-      "Naypyidaw"
+      "Naypyidaw",
+      "Myanmar cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Myanmar National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Myanmar",
+      "Noted scientific figures of Myanmar"
     ],
-    "fact": "Myanmar is in Asia region with capital Naypyidaw."
+    "fact": "Myanmar is located in South-Eastern Asia with capital Naypyidaw. Area is 6,76,578 sq km and population is 5,13,16,756."
   },
   {
     "name": "Namibia",
@@ -3819,17 +4249,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/oR1i8BFEYX3EY83WA",
     "currency": "NAD (Namibian dollar)",
     "famousCities": [
-      "Windhoek"
+      "Windhoek",
+      "Namibia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Namibia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Namibia",
+      "Noted scientific figures of Namibia"
     ],
-    "fact": "Namibia is in Africa region with capital Windhoek."
+    "fact": "Namibia is located in Southern Africa with capital Windhoek. Area is 8,25,615 sq km and population is 30,22,401."
   },
   {
     "name": "Nauru",
@@ -3844,17 +4277,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/kyAGw6XEJgjSMsTK7",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "Yaren"
+      "Yaren",
+      "Nauru cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Nauru National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Nauru",
+      "Noted scientific figures of Nauru"
     ],
-    "fact": "Nauru is in Oceania region with capital Yaren."
+    "fact": "Nauru is located in Micronesia with capital Yaren. Area is 21 sq km and population is 11,680."
   },
   {
     "name": "Nepal",
@@ -3869,17 +4305,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/UMj2zpbQp7B5c3yT7",
     "currency": "NPR (Nepalese rupee)",
     "famousCities": [
-      "Kathmandu"
+      "Kathmandu",
+      "Nepal cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Nepal National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Nepal",
+      "Noted scientific figures of Nepal"
     ],
-    "fact": "Nepal is in Asia region with capital Kathmandu."
+    "fact": "Nepal is located in Southern Asia with capital Kathmandu. Area is 1,47,181 sq km and population is 2,99,11,840."
   },
   {
     "name": "Netherlands",
@@ -3894,17 +4333,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Hv6zQswGhFxoVVBm6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Amsterdam"
+      "Amsterdam",
+      "Netherlands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Netherlands National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Netherlands",
+      "Noted scientific figures of Netherlands"
     ],
-    "fact": "Netherlands is in Europe region with capital Amsterdam."
+    "fact": "Netherlands is located in Western Europe with capital Amsterdam. Area is 41,865 sq km and population is 1,81,00,436."
   },
   {
     "name": "New Caledonia",
@@ -3919,17 +4361,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/cBhtCeMdob4U7FRU9",
     "currency": "XPF (CFP franc)",
     "famousCities": [
-      "Nouméa"
+      "Nouméa",
+      "New Caledonia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "New Caledonia National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of New Caledonia",
+      "Noted scientific figures of New Caledonia"
     ],
-    "fact": "New Caledonia is in Oceania region with capital Nouméa."
+    "fact": "New Caledonia is located in Melanesia with capital Nouméa. Area is 18,575 sq km and population is 2,64,596."
   },
   {
     "name": "New Zealand",
@@ -3944,17 +4389,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/xXiDQo65dwdpw9iu8",
     "currency": "NZD (New Zealand dollar)",
     "famousCities": [
-      "Wellington"
+      "Wellington",
+      "New Zealand cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "New Zealand National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of New Zealand",
+      "Noted scientific figures of New Zealand"
     ],
-    "fact": "New Zealand is in Oceania region with capital Wellington."
+    "fact": "New Zealand is located in Australia and New Zealand with capital Wellington. Area is 2,68,838 sq km and population is 53,24,700."
   },
   {
     "name": "Nicaragua",
@@ -3969,17 +4417,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/P77LaEVkKJKXneRC6",
     "currency": "NIO (Nicaraguan córdoba)",
     "famousCities": [
-      "Managua"
+      "Managua",
+      "Nicaragua cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Nicaragua National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Nicaragua",
+      "Noted scientific figures of Nicaragua"
     ],
-    "fact": "Nicaragua is in Americas region with capital Managua."
+    "fact": "Nicaragua is located in Central America with capital Managua. Area is 1,30,373 sq km and population is 68,03,886."
   },
   {
     "name": "Niger",
@@ -3994,17 +4445,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/VKNU2TLsZcgxM49c8",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Niamey"
+      "Niamey",
+      "Niger cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Niger National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Niger",
+      "Noted scientific figures of Niger"
     ],
-    "fact": "Niger is in Africa region with capital Niamey."
+    "fact": "Niger is located in Western Africa with capital Niamey. Area is 12,67,000 sq km and population is 2,63,12,034."
   },
   {
     "name": "Nigeria",
@@ -4019,17 +4473,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/LTn417qWwBPFszuV9",
     "currency": "NGN (Nigerian naira)",
     "famousCities": [
-      "Abuja"
+      "Lagos",
+      "Abuja",
+      "Kano"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "National Mosque Abuja",
+      "Olumo Rock structures"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger",
+    "highestMountain": "Chappal Waddi",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Chinua Achebe",
+      "Wole Soyinka"
     ],
-    "fact": "Nigeria is in Africa region with capital Abuja."
+    "fact": "Nigeria is located in Western Africa with capital Abuja. Area is 9,23,768 sq km and population is 22,38,00,000."
   },
   {
     "name": "Niue",
@@ -4044,17 +4502,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/xFgdzs3E55Rk1y8P9",
     "currency": "NZD (New Zealand dollar)",
     "famousCities": [
-      "Alofi"
+      "Alofi",
+      "Niue cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Niue National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Niue",
+      "Noted scientific figures of Niue"
     ],
-    "fact": "Niue is in Oceania region with capital Alofi."
+    "fact": "Niue is located in Polynesia with capital Alofi. Area is 260 sq km and population is 1,681."
   },
   {
     "name": "Norfolk Island",
@@ -4069,17 +4530,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/pbvtm6XYd1iZbjky5",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "Kingston"
+      "Kingston",
+      "Norfolk Island cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Norfolk Island National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Norfolk Island",
+      "Noted scientific figures of Norfolk Island"
     ],
-    "fact": "Norfolk Island is in Oceania region with capital Kingston."
+    "fact": "Norfolk Island is located in Australia and New Zealand with capital Kingston. Area is 36 sq km and population is 2,188."
   },
   {
     "name": "North Korea",
@@ -4094,17 +4558,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9q5T2DMeH5JL7Tky6",
     "currency": "KPW (North Korean won)",
     "famousCities": [
-      "Pyongyang"
+      "Pyongyang",
+      "North Korea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "North Korea National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of North Korea",
+      "Noted scientific figures of North Korea"
     ],
-    "fact": "North Korea is in Asia region with capital Pyongyang."
+    "fact": "North Korea is located in Eastern Asia with capital Pyongyang. Area is 1,20,538 sq km and population is 2,59,50,000."
   },
   {
     "name": "North Macedonia",
@@ -4119,17 +4586,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/55Q8MEnF6ACdu3q79",
     "currency": "MKD (denar)",
     "famousCities": [
-      "Skopje"
+      "Skopje",
+      "North Macedonia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "North Macedonia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of North Macedonia",
+      "Noted scientific figures of North Macedonia"
     ],
-    "fact": "North Macedonia is in Europe region with capital Skopje."
+    "fact": "North Macedonia is located in Southeast Europe with capital Skopje. Area is 25,713 sq km and population is 18,22,612."
   },
   {
     "name": "Northern Mariana Islands",
@@ -4144,17 +4614,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/cpZ67knoRAcfu1417",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Saipan"
+      "Saipan",
+      "Northern Mariana Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Northern Mariana Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Northern Mariana Islands",
+      "Noted scientific figures of Northern Mariana Islands"
     ],
-    "fact": "Northern Mariana Islands is in Oceania region with capital Saipan."
+    "fact": "Northern Mariana Islands is located in Micronesia with capital Saipan. Area is 464 sq km and population is 47,329."
   },
   {
     "name": "Norway",
@@ -4169,17 +4642,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/htWRrphA7vNgQNdSA",
     "currency": "NOK (Norwegian krone)",
     "famousCities": [
-      "Oslo"
+      "Oslo",
+      "Norway cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Norway National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Norway",
+      "Noted scientific figures of Norway"
     ],
-    "fact": "Norway is in Europe region with capital Oslo."
+    "fact": "Norway is located in Northern Europe with capital Oslo. Area is 3,86,224 sq km and population is 56,06,944."
   },
   {
     "name": "Oman",
@@ -4194,17 +4670,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/L2BoXoAwDDwWecnw5",
     "currency": "OMR (Omani rial)",
     "famousCities": [
-      "Muscat"
+      "Muscat",
+      "Oman cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Oman National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Oman",
+      "Noted scientific figures of Oman"
     ],
-    "fact": "Oman is in Asia region with capital Muscat."
+    "fact": "Oman is located in Western Asia with capital Muscat. Area is 3,09,500 sq km and population is 53,43,630."
   },
   {
     "name": "Pakistan",
@@ -4219,17 +4698,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/5LYujdfR5yLUXoERA",
     "currency": "PKR (Pakistani rupee)",
     "famousCities": [
-      "Islamabad"
+      "Islamabad",
+      "Pakistan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Pakistan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Pakistan",
+      "Noted scientific figures of Pakistan"
     ],
-    "fact": "Pakistan is in Asia region with capital Islamabad."
+    "fact": "Pakistan is located in Southern Asia with capital Islamabad. Area is 7,96,095 sq km and population is 24,14,99,431."
   },
   {
     "name": "Palau",
@@ -4244,17 +4726,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/MVasQBbUkQP7qQDR9",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Ngerulmud"
+      "Ngerulmud",
+      "Palau cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Palau National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Palau",
+      "Noted scientific figures of Palau"
     ],
-    "fact": "Palau is in Oceania region with capital Ngerulmud."
+    "fact": "Palau is located in Micronesia with capital Ngerulmud. Area is 459 sq km and population is 16,733."
   },
   {
     "name": "Palestine",
@@ -4269,17 +4754,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/QvTbkRdmdWEoYAmt5",
     "currency": "EGP (Egyptian pound)",
     "famousCities": [
-      "Ramallah"
+      "Ramallah",
+      "Palestine cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Palestine National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Palestine",
+      "Noted scientific figures of Palestine"
     ],
-    "fact": "Palestine is in Asia region with capital Ramallah."
+    "fact": "Palestine is located in Western Asia with capital Ramallah. Area is 6,220 sq km and population is 54,83,450."
   },
   {
     "name": "Panama",
@@ -4294,17 +4782,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/sEN7sKqeawa5oPNLA",
     "currency": "PAB (Panamanian balboa)",
     "famousCities": [
-      "Panama City"
+      "Panama City",
+      "Panama cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Panama National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Panama",
+      "Noted scientific figures of Panama"
     ],
-    "fact": "Panama is in Americas region with capital Panama City."
+    "fact": "Panama is located in Central America with capital Panama City. Area is 75,417 sq km and population is 40,64,780."
   },
   {
     "name": "Papua New Guinea",
@@ -4319,17 +4810,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ChGmzZBjZ3vnBwR2A",
     "currency": "PGK (Papua New Guinean kina)",
     "famousCities": [
-      "Port Moresby"
+      "Port Moresby",
+      "Papua New Guinea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Papua New Guinea National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Papua New Guinea",
+      "Noted scientific figures of Papua New Guinea"
     ],
-    "fact": "Papua New Guinea is in Oceania region with capital Port Moresby."
+    "fact": "Papua New Guinea is located in Melanesia with capital Port Moresby. Area is 4,62,840 sq km and population is 1,17,81,559."
   },
   {
     "name": "Paraguay",
@@ -4344,17 +4838,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JtnqG73WJn1Gx6mz6",
     "currency": "PYG (Paraguayan guaraní)",
     "famousCities": [
-      "Asunción"
+      "Asunción",
+      "Paraguay cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Paraguay National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Paraguay",
+      "Noted scientific figures of Paraguay"
     ],
-    "fact": "Paraguay is in Americas region with capital Asunción."
+    "fact": "Paraguay is located in South America with capital Asunción. Area is 4,06,752 sq km and population is 61,09,644."
   },
   {
     "name": "Peru",
@@ -4369,17 +4866,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/uDWEUaXNcZTng1fP6",
     "currency": "PEN (Peruvian sol)",
     "famousCities": [
-      "Lima"
+      "Lima",
+      "Peru cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Peru National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Peru",
+      "Noted scientific figures of Peru"
     ],
-    "fact": "Peru is in Americas region with capital Lima."
+    "fact": "Peru is located in South America with capital Lima. Area is 12,85,216 sq km and population is 3,43,50,244."
   },
   {
     "name": "Philippines",
@@ -4394,17 +4894,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/k8T2fb5VMUfsWFX6A",
     "currency": "PHP (Philippine peso)",
     "famousCities": [
-      "Manila"
+      "Manila",
+      "Philippines cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Philippines National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Philippines",
+      "Noted scientific figures of Philippines"
     ],
-    "fact": "Philippines is in Asia region with capital Manila."
+    "fact": "Philippines is located in South-Eastern Asia with capital Manila. Area is 3,42,353 sq km and population is 11,41,23,600."
   },
   {
     "name": "Pitcairn Islands",
@@ -4419,17 +4922,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/XGJMnMAigXjXcxSa7",
     "currency": "NZD (New Zealand dollar)",
     "famousCities": [
-      "Adamstown"
+      "Adamstown",
+      "Pitcairn Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Pitcairn Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Pitcairn Islands",
+      "Noted scientific figures of Pitcairn Islands"
     ],
-    "fact": "Pitcairn Islands is in Oceania region with capital Adamstown."
+    "fact": "Pitcairn Islands is located in Polynesia with capital Adamstown. Area is 47 sq km and population is 35."
   },
   {
     "name": "Poland",
@@ -4444,17 +4950,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/gY9Xw4Sf4415P4949",
     "currency": "PLN (Polish złoty)",
     "famousCities": [
-      "Warsaw"
+      "Warsaw",
+      "Poland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Poland National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Poland",
+      "Noted scientific figures of Poland"
     ],
-    "fact": "Poland is in Europe region with capital Warsaw."
+    "fact": "Poland is located in Central Europe with capital Warsaw. Area is 3,12,679 sq km and population is 3,73,92,000."
   },
   {
     "name": "Portugal",
@@ -4469,17 +4978,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/BaTBSyc4GWMmbAKB8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Lisbon"
+      "Lisbon",
+      "Portugal cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Portugal National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Portugal",
+      "Noted scientific figures of Portugal"
     ],
-    "fact": "Portugal is in Europe region with capital Lisbon."
+    "fact": "Portugal is located in Southern Europe with capital Lisbon. Area is 92,090 sq km and population is 1,07,49,635."
   },
   {
     "name": "Puerto Rico",
@@ -4494,17 +5006,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/sygfDbtwn389wu8x5",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "San Juan"
+      "San Juan",
+      "Puerto Rico cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Puerto Rico National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Puerto Rico",
+      "Noted scientific figures of Puerto Rico"
     ],
-    "fact": "Puerto Rico is in Americas region with capital San Juan."
+    "fact": "Puerto Rico is located in Caribbean with capital San Juan. Area is 8,870 sq km and population is 32,03,295."
   },
   {
     "name": "Qatar",
@@ -4519,17 +5034,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/ZV76Y49z7LLUZ2KQ6",
     "currency": "QAR (Qatari riyal)",
     "famousCities": [
-      "Doha"
+      "Doha",
+      "Qatar cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Qatar National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Qatar",
+      "Noted scientific figures of Qatar"
     ],
-    "fact": "Qatar is in Asia region with capital Doha."
+    "fact": "Qatar is located in Western Asia with capital Doha. Area is 11,586 sq km and population is 31,73,024."
   },
   {
     "name": "Republic of the Congo",
@@ -4544,17 +5062,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Phf5dDDKdfCtuBTb6",
     "currency": "XAF (Central African CFA franc)",
     "famousCities": [
-      "Brazzaville"
+      "Brazzaville",
+      "Republic of the Congo cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Republic of the Congo National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Republic of the Congo",
+      "Noted scientific figures of Republic of the Congo"
     ],
-    "fact": "Republic of the Congo is in Africa region with capital Brazzaville."
+    "fact": "Republic of the Congo is located in Middle Africa with capital Brazzaville. Area is 3,42,000 sq km and population is 61,42,180."
   },
   {
     "name": "Réunion",
@@ -4569,17 +5090,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/wWpBrXsp8UHVbah29",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Saint-Denis"
+      "Saint-Denis",
+      "Réunion cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Réunion National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Réunion",
+      "Noted scientific figures of Réunion"
     ],
-    "fact": "Réunion is in Africa region with capital Saint-Denis."
+    "fact": "Réunion is located in Eastern Africa with capital Saint-Denis. Area is 2,511 sq km and population is 8,96,175."
   },
   {
     "name": "Romania",
@@ -4594,17 +5118,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/845hAgCf1mDkN3vr7",
     "currency": "RON (Romanian leu)",
     "famousCities": [
-      "Bucharest"
+      "Bucharest",
+      "Romania cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Romania National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Romania",
+      "Noted scientific figures of Romania"
     ],
-    "fact": "Romania is in Europe region with capital Bucharest."
+    "fact": "Romania is located in Southeast Europe with capital Bucharest. Area is 2,38,391 sq km and population is 1,90,36,031."
   },
   {
     "name": "Russia",
@@ -4619,17 +5146,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4F4PpDhGJgVvLby57",
     "currency": "RUB (Russian ruble)",
     "famousCities": [
-      "Moscow"
+      "Moscow",
+      "Saint Petersburg",
+      "Kazan"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Basil's Cathedral",
+      "Hermitage"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Lena",
+    "highestMountain": "Mount Elbrus",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Leo Tolstoy",
+      "Yuri Gagarin"
     ],
-    "fact": "Russia is in Europe region with capital Moscow."
+    "fact": "Russia is located in Eastern Europe with capital Moscow. Area is 1,70,98,246 sq km and population is 14,60,28,325."
   },
   {
     "name": "Rwanda",
@@ -4644,17 +5175,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/j5xb5r7CLqjYbyP86",
     "currency": "RWF (Rwandan franc)",
     "famousCities": [
-      "Kigali"
+      "Kigali",
+      "Rwanda cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Rwanda National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Rwanda",
+      "Noted scientific figures of Rwanda"
     ],
-    "fact": "Rwanda is in Africa region with capital Kigali."
+    "fact": "Rwanda is located in Eastern Africa with capital Kigali. Area is 26,338 sq km and population is 1,41,04,969."
   },
   {
     "name": "Saint Barthélemy",
@@ -4669,17 +5203,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Mc7GqH466S7AAk297",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Gustavia"
+      "Gustavia",
+      "Saint Barthélemy cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Barthélemy National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Barthélemy",
+      "Noted scientific figures of Saint Barthélemy"
     ],
-    "fact": "Saint Barthélemy is in Americas region with capital Gustavia."
+    "fact": "Saint Barthélemy is located in Caribbean with capital Gustavia. Area is 21 sq km and population is 10,562."
   },
   {
     "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -4694,17 +5231,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/iv4VxnPzHkjLCJuc6",
     "currency": "GBP (Pound sterling)",
     "famousCities": [
-      "Jamestown"
+      "Jamestown",
+      "Saint Helena, Ascension and Tristan da Cunha cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Helena, Ascension and Tristan da Cunha National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Helena, Ascension and Tristan da Cunha",
+      "Noted scientific figures of Saint Helena, Ascension and Tristan da Cunha"
     ],
-    "fact": "Saint Helena, Ascension and Tristan da Cunha is in Africa region with capital Jamestown."
+    "fact": "Saint Helena, Ascension and Tristan da Cunha is located in Western Africa with capital Jamestown. Area is 394 sq km and population is 5,651."
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -4719,17 +5259,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/qiaVwcLVTXX3eoTNA",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Basseterre"
+      "Basseterre",
+      "Saint Kitts and Nevis cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Kitts and Nevis National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Kitts and Nevis",
+      "Noted scientific figures of Saint Kitts and Nevis"
     ],
-    "fact": "Saint Kitts and Nevis is in Americas region with capital Basseterre."
+    "fact": "Saint Kitts and Nevis is located in Caribbean with capital Basseterre. Area is 261 sq km and population is 51,320."
   },
   {
     "name": "Saint Lucia",
@@ -4744,17 +5287,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/4HhJ2jkPdSL9BPRcA",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Castries"
+      "Castries",
+      "Saint Lucia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Lucia National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Lucia",
+      "Noted scientific figures of Saint Lucia"
     ],
-    "fact": "Saint Lucia is in Americas region with capital Castries."
+    "fact": "Saint Lucia is located in Caribbean with capital Castries. Area is 616 sq km and population is 1,84,100."
   },
   {
     "name": "Saint Martin",
@@ -4769,17 +5315,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/P9ho9QuJ9EAR28JEA",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Marigot"
+      "Marigot",
+      "Saint Martin cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Martin National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Martin",
+      "Noted scientific figures of Saint Martin"
     ],
-    "fact": "Saint Martin is in Americas region with capital Marigot."
+    "fact": "Saint Martin is located in Caribbean with capital Marigot. Area is 53 sq km and population is 31,496."
   },
   {
     "name": "Saint Pierre and Miquelon",
@@ -4794,17 +5343,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/bUM8Yc8pA8ghyhmt6",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Saint-Pierre"
+      "Saint-Pierre",
+      "Saint Pierre and Miquelon cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Pierre and Miquelon National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Pierre and Miquelon",
+      "Noted scientific figures of Saint Pierre and Miquelon"
     ],
-    "fact": "Saint Pierre and Miquelon is in Americas region with capital Saint-Pierre."
+    "fact": "Saint Pierre and Miquelon is located in North America with capital Saint-Pierre. Area is 242 sq km and population is 5,819."
   },
   {
     "name": "Saint Vincent and the Grenadines",
@@ -4819,17 +5371,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/wMbnMqjG37FMnrwf7",
     "currency": "XCD (Eastern Caribbean dollar)",
     "famousCities": [
-      "Kingstown"
+      "Kingstown",
+      "Saint Vincent and the Grenadines cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Saint Vincent and the Grenadines National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Saint Vincent and the Grenadines",
+      "Noted scientific figures of Saint Vincent and the Grenadines"
     ],
-    "fact": "Saint Vincent and the Grenadines is in Americas region with capital Kingstown."
+    "fact": "Saint Vincent and the Grenadines is located in Caribbean with capital Kingstown. Area is 389 sq km and population is 1,10,872."
   },
   {
     "name": "Samoa",
@@ -4844,17 +5399,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CFC9fEFP9cfkYUBF9",
     "currency": "WST (Samoan tālā)",
     "famousCities": [
-      "Apia"
+      "Apia",
+      "Samoa cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Samoa National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Samoa",
+      "Noted scientific figures of Samoa"
     ],
-    "fact": "Samoa is in Oceania region with capital Apia."
+    "fact": "Samoa is located in Polynesia with capital Apia. Area is 2,842 sq km and population is 2,05,557."
   },
   {
     "name": "San Marino",
@@ -4869,17 +5427,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/rxCVJjm8dVY93RPY8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "City of San Marino"
+      "City of San Marino",
+      "San Marino cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "San Marino National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of San Marino",
+      "Noted scientific figures of San Marino"
     ],
-    "fact": "San Marino is in Europe region with capital City of San Marino."
+    "fact": "San Marino is located in Southern Europe with capital City of San Marino. Area is 61 sq km and population is 34,132."
   },
   {
     "name": "São Tomé and Príncipe",
@@ -4894,17 +5455,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/9EUppm13RtPX9oF46",
     "currency": "STN (São Tomé and Príncipe dobra)",
     "famousCities": [
-      "São Tomé"
+      "São Tomé",
+      "São Tomé and Príncipe cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "São Tomé and Príncipe National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of São Tomé and Príncipe",
+      "Noted scientific figures of São Tomé and Príncipe"
     ],
-    "fact": "São Tomé and Príncipe is in Africa region with capital São Tomé."
+    "fact": "São Tomé and Príncipe is located in Middle Africa with capital São Tomé. Area is 964 sq km and population is 2,09,607."
   },
   {
     "name": "Saudi Arabia",
@@ -4919,17 +5483,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/5PSjvdJ1AyaLFRrG9",
     "currency": "SAR (Saudi riyal)",
     "famousCities": [
-      "Riyadh"
+      "Riyadh",
+      "Jeddah",
+      "Mecca"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Masjid al-Haram",
+      "Al-Masmak Fort"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "No permanent river (wadis)",
+    "highestMountain": "Jabal Sawda",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Ibn Saud",
+      "Abdulaziz Al Saud"
     ],
-    "fact": "Saudi Arabia is in Asia region with capital Riyadh."
+    "fact": "Saudi Arabia is located in Western Asia with capital Riyadh. Area is 21,49,690 sq km and population is 3,53,00,280."
   },
   {
     "name": "Senegal",
@@ -4944,17 +5512,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/o5f1uD5nyihCL3HCA",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Dakar"
+      "Dakar",
+      "Senegal cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Senegal National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Senegal",
+      "Noted scientific figures of Senegal"
     ],
-    "fact": "Senegal is in Africa region with capital Dakar."
+    "fact": "Senegal is located in Western Africa with capital Dakar. Area is 1,96,722 sq km and population is 1,85,93,258."
   },
   {
     "name": "Serbia",
@@ -4969,17 +5540,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/2Aqof7aV2Naq8YEK8",
     "currency": "RSD (Serbian dinar)",
     "famousCities": [
-      "Belgrade"
+      "Belgrade",
+      "Serbia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Serbia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Serbia",
+      "Noted scientific figures of Serbia"
     ],
-    "fact": "Serbia is in Europe region with capital Belgrade."
+    "fact": "Serbia is located in Southeast Europe with capital Belgrade. Area is 77,589 sq km and population is 65,67,783."
   },
   {
     "name": "Seychelles",
@@ -4994,17 +5568,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/aqCcy2TKh5TV5MAX8",
     "currency": "SCR (Seychellois rupee)",
     "famousCities": [
-      "Victoria"
+      "Victoria",
+      "Seychelles cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Seychelles National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Seychelles",
+      "Noted scientific figures of Seychelles"
     ],
-    "fact": "Seychelles is in Africa region with capital Victoria."
+    "fact": "Seychelles is located in Eastern Africa with capital Victoria. Area is 452 sq km and population is 1,22,729."
   },
   {
     "name": "Sierra Leone",
@@ -5019,17 +5596,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/jhacar85oq9QaeKB7",
     "currency": "SLE (Leone)",
     "famousCities": [
-      "Freetown"
+      "Freetown",
+      "Sierra Leone cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sierra Leone National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Sierra Leone",
+      "Noted scientific figures of Sierra Leone"
     ],
-    "fact": "Sierra Leone is in Africa region with capital Freetown."
+    "fact": "Sierra Leone is located in Western Africa with capital Freetown. Area is 71,740 sq km and population is 90,77,691."
   },
   {
     "name": "Singapore",
@@ -5044,17 +5624,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/QbQt9Y9b5KFzsahV6",
     "currency": "SGD (Singapore dollar)",
     "famousCities": [
-      "Singapore"
+      "Singapore",
+      "Singapore cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Singapore National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Singapore",
+      "Noted scientific figures of Singapore"
     ],
-    "fact": "Singapore is in Asia region with capital Singapore."
+    "fact": "Singapore is located in South-Eastern Asia with capital Singapore. Area is 710 sq km and population is 61,10,200."
   },
   {
     "name": "Sint Maarten",
@@ -5069,17 +5652,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/DjvcESy1a1oGEZuNA",
     "currency": "ANG (Netherlands Antillean guilder)",
     "famousCities": [
-      "Philipsburg"
+      "Philipsburg",
+      "Sint Maarten cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sint Maarten National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Sint Maarten",
+      "Noted scientific figures of Sint Maarten"
     ],
-    "fact": "Sint Maarten is in Americas region with capital Philipsburg."
+    "fact": "Sint Maarten is located in Caribbean with capital Philipsburg. Area is 34 sq km and population is 41,349."
   },
   {
     "name": "Slovakia",
@@ -5094,17 +5680,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/uNSH2wW4bLoZVYJj7",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Bratislava"
+      "Bratislava",
+      "Slovakia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Slovakia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Slovakia",
+      "Noted scientific figures of Slovakia"
     ],
-    "fact": "Slovakia is in Europe region with capital Bratislava."
+    "fact": "Slovakia is located in Central Europe with capital Bratislava. Area is 49,037 sq km and population is 54,13,813."
   },
   {
     "name": "Slovenia",
@@ -5119,17 +5708,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/7zgFmswcCJh5L5D49",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Ljubljana"
+      "Ljubljana",
+      "Slovenia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Slovenia National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Slovenia",
+      "Noted scientific figures of Slovenia"
     ],
-    "fact": "Slovenia is in Europe region with capital Ljubljana."
+    "fact": "Slovenia is located in Central Europe with capital Ljubljana. Area is 20,273 sq km and population is 21,30,638."
   },
   {
     "name": "Solomon Islands",
@@ -5144,17 +5736,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/JbPkx86Ywjv8C1n8A",
     "currency": "SBD (Solomon Islands dollar)",
     "famousCities": [
-      "Honiara"
+      "Honiara",
+      "Solomon Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Solomon Islands National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Solomon Islands",
+      "Noted scientific figures of Solomon Islands"
     ],
-    "fact": "Solomon Islands is in Oceania region with capital Honiara."
+    "fact": "Solomon Islands is located in Melanesia with capital Honiara. Area is 28,896 sq km and population is 7,50,325."
   },
   {
     "name": "Somalia",
@@ -5169,17 +5764,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8of8q7D1a8p7R6Fc9",
     "currency": "SOS (Somali shilling)",
     "famousCities": [
-      "Mogadishu"
+      "Mogadishu",
+      "Somalia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Somalia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Somalia",
+      "Noted scientific figures of Somalia"
     ],
-    "fact": "Somalia is in Africa region with capital Mogadishu."
+    "fact": "Somalia is located in Eastern Africa with capital Mogadishu. Area is 6,37,657 sq km and population is 1,96,55,000."
   },
   {
     "name": "South Africa",
@@ -5194,17 +5792,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CLCZ1R8Uz1KpYhRv6",
     "currency": "ZAR (South African rand)",
     "famousCities": [
-      "Pretoria"
+      "Johannesburg",
+      "Cape Town",
+      "Durban"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Table Mountain Cableway structures",
+      "Union Buildings"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Orange",
+    "highestMountain": "Mafadi",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Nelson Mandela",
+      "Desmond Tutu"
     ],
-    "fact": "South Africa is in Africa region with capital Pretoria."
+    "fact": "South Africa is located in Southern Africa with capital Pretoria. Area is 12,21,037 sq km and population is 6,31,00,945."
   },
   {
     "name": "South Georgia",
@@ -5219,17 +5821,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/mJzdaBwKBbm2B81q9",
     "currency": "GBP (British pound)",
     "famousCities": [
-      "King Edward Point"
+      "King Edward Point",
+      "South Georgia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "South Georgia National Museum district",
+      "Historic and modern national landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Regional river systems",
+    "highestMountain": "Regional mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of South Georgia",
+      "Noted scientific figures of South Georgia"
     ],
-    "fact": "South Georgia is in Antarctic region with capital King Edward Point."
+    "fact": "South Georgia is located in Antarctic with capital King Edward Point. Area is 3,903 sq km and population is 0."
   },
   {
     "name": "South Korea",
@@ -5244,17 +5849,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/7ecjaJXefjAQhxjGA",
     "currency": "KRW (South Korean won)",
     "famousCities": [
-      "Seoul"
+      "Seoul",
+      "South Korea cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "South Korea National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of South Korea",
+      "Noted scientific figures of South Korea"
     ],
-    "fact": "South Korea is in Asia region with capital Seoul."
+    "fact": "South Korea is located in Eastern Asia with capital Seoul. Area is 1,00,210 sq km and population is 5,11,59,889."
   },
   {
     "name": "South Sudan",
@@ -5269,17 +5877,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Zm1AYCXb9HSNF1P27",
     "currency": "SSP (South Sudanese pound)",
     "famousCities": [
-      "Juba"
+      "Juba",
+      "South Sudan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "South Sudan National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of South Sudan",
+      "Noted scientific figures of South Sudan"
     ],
-    "fact": "South Sudan is in Africa region with capital Juba."
+    "fact": "South Sudan is located in Middle Africa with capital Juba. Area is 6,19,745 sq km and population is 1,57,86,898."
   },
   {
     "name": "Spain",
@@ -5294,17 +5905,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/138JaXW8EZzRVitY9",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Madrid"
+      "Madrid",
+      "Barcelona",
+      "Seville"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sagrada Familia",
+      "Alhambra"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Tagus",
+    "highestMountain": "Teide",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Pablo Picasso",
+      "Rafael Nadal"
     ],
-    "fact": "Spain is in Europe region with capital Madrid."
+    "fact": "Spain is located in Southern Europe with capital Madrid. Area is 5,05,992 sq km and population is 4,93,15,949."
   },
   {
     "name": "Sri Lanka",
@@ -5319,17 +5934,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/VkPHoeFSfgzRQCDv8",
     "currency": "LKR (Sri Lankan rupee)",
     "famousCities": [
-      "Sri Jayawardenepura Kotte"
+      "Sri Jayawardenepura Kotte",
+      "Sri Lanka cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sri Lanka National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Sri Lanka",
+      "Noted scientific figures of Sri Lanka"
     ],
-    "fact": "Sri Lanka is in Asia region with capital Sri Jayawardenepura Kotte."
+    "fact": "Sri Lanka is located in Southern Asia with capital Sri Jayawardenepura Kotte. Area is 65,610 sq km and population is 2,17,63,170."
   },
   {
     "name": "Sudan",
@@ -5344,17 +5962,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/bNW7YUJCaqR8zcXn7",
     "currency": "SDG (Sudanese pound)",
     "famousCities": [
-      "Khartoum"
+      "Khartoum",
+      "Sudan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sudan National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Sudan",
+      "Noted scientific figures of Sudan"
     ],
-    "fact": "Sudan is in Africa region with capital Khartoum."
+    "fact": "Sudan is located in Northern Africa with capital Khartoum. Area is 18,86,068 sq km and population is 5,16,62,000."
   },
   {
     "name": "Suriname",
@@ -5369,17 +5990,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/iy7TuQLSi4qgoBoG7",
     "currency": "SRD (Surinamese dollar)",
     "famousCities": [
-      "Paramaribo"
+      "Paramaribo",
+      "Suriname cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Suriname National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Suriname",
+      "Noted scientific figures of Suriname"
     ],
-    "fact": "Suriname is in Americas region with capital Paramaribo."
+    "fact": "Suriname is located in South America with capital Paramaribo. Area is 1,63,820 sq km and population is 6,16,500."
   },
   {
     "name": "Svalbard and Jan Mayen",
@@ -5394,17 +6018,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/L2wyyn3cQ16PzQ5J8",
     "currency": "NOK (krone)",
     "famousCities": [
-      "Longyearbyen"
+      "Longyearbyen",
+      "Svalbard and Jan Mayen cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Svalbard and Jan Mayen National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Svalbard and Jan Mayen",
+      "Noted scientific figures of Svalbard and Jan Mayen"
     ],
-    "fact": "Svalbard and Jan Mayen is in Europe region with capital Longyearbyen."
+    "fact": "Svalbard and Jan Mayen is located in Northern Europe with capital Longyearbyen. Area is 61,399 sq km and population is 2,530."
   },
   {
     "name": "Sweden",
@@ -5419,17 +6046,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/iqygE491ADVgnBW39",
     "currency": "SEK (Swedish krona)",
     "famousCities": [
-      "Stockholm"
+      "Stockholm",
+      "Sweden cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Sweden National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Sweden",
+      "Noted scientific figures of Sweden"
     ],
-    "fact": "Sweden is in Europe region with capital Stockholm."
+    "fact": "Sweden is located in Northern Europe with capital Stockholm. Area is 4,50,295 sq km and population is 1,06,05,098."
   },
   {
     "name": "Switzerland",
@@ -5444,17 +6074,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/uVuZcXaxSx5jLyEC9",
     "currency": "CHF (Swiss franc)",
     "famousCities": [
-      "Bern"
+      "Bern",
+      "Switzerland cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Switzerland National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Switzerland",
+      "Noted scientific figures of Switzerland"
     ],
-    "fact": "Switzerland is in Europe region with capital Bern."
+    "fact": "Switzerland is located in Western Europe with capital Bern. Area is 41,284 sq km and population is 90,82,848."
   },
   {
     "name": "Syria",
@@ -5469,17 +6102,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Xe3VnFbwdb4nv2SM9",
     "currency": "SYP (Syrian pound)",
     "famousCities": [
-      "Damascus"
+      "Damascus",
+      "Syria cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Syria National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Syria",
+      "Noted scientific figures of Syria"
     ],
-    "fact": "Syria is in Asia region with capital Damascus."
+    "fact": "Syria is located in Western Asia with capital Damascus. Area is 1,85,180 sq km and population is 2,56,20,000."
   },
   {
     "name": "Taiwan",
@@ -5494,17 +6130,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/HgMKFQjNadF3Wa6B6",
     "currency": "TWD (New Taiwan dollar)",
     "famousCities": [
-      "Taipei"
+      "Taipei",
+      "Taiwan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Taiwan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Taiwan",
+      "Noted scientific figures of Taiwan"
     ],
-    "fact": "Taiwan is in Asia region with capital Taipei."
+    "fact": "Taiwan is located in Eastern Asia with capital Taipei. Area is 36,197 sq km and population is 2,33,17,031."
   },
   {
     "name": "Tajikistan",
@@ -5519,17 +6158,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/8rQgW88jEXijhVb58",
     "currency": "TJS (Tajikistani somoni)",
     "famousCities": [
-      "Dushanbe"
+      "Dushanbe",
+      "Tajikistan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tajikistan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tajikistan",
+      "Noted scientific figures of Tajikistan"
     ],
-    "fact": "Tajikistan is in Asia region with capital Dushanbe."
+    "fact": "Tajikistan is located in Central Asia with capital Dushanbe. Area is 1,43,100 sq km and population is 1,04,99,000."
   },
   {
     "name": "Tanzania",
@@ -5544,17 +6186,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/NWYMqZYXte4zGZ2Q8",
     "currency": "TZS (Tanzanian shilling)",
     "famousCities": [
-      "Dodoma"
+      "Dodoma",
+      "Tanzania cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tanzania National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tanzania",
+      "Noted scientific figures of Tanzania"
     ],
-    "fact": "Tanzania is in Africa region with capital Dodoma."
+    "fact": "Tanzania is located in Eastern Africa with capital Dodoma. Area is 9,47,303 sq km and population is 6,81,53,004."
   },
   {
     "name": "Thailand",
@@ -5569,17 +6214,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/qeU6uqsfW4nCCwzw9",
     "currency": "THB (Thai baht)",
     "famousCities": [
-      "Bangkok"
+      "Bangkok",
+      "Thailand cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Thailand National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Thailand",
+      "Noted scientific figures of Thailand"
     ],
-    "fact": "Thailand is in Asia region with capital Bangkok."
+    "fact": "Thailand is located in South-Eastern Asia with capital Bangkok. Area is 5,13,120 sq km and population is 6,58,59,640."
   },
   {
     "name": "Timor-Leste",
@@ -5594,17 +6242,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/sFqBC9zjgUXPR1iTA",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Dili"
+      "Dili",
+      "Timor-Leste cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Timor-Leste National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Timor-Leste",
+      "Noted scientific figures of Timor-Leste"
     ],
-    "fact": "Timor-Leste is in Asia region with capital Dili."
+    "fact": "Timor-Leste is located in South-Eastern Asia with capital Dili. Area is 14,874 sq km and population is 13,91,221."
   },
   {
     "name": "Togo",
@@ -5619,17 +6270,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/jzAa9feXuXPrKVb89",
     "currency": "XOF (West African CFA franc)",
     "famousCities": [
-      "Lomé"
+      "Lomé",
+      "Togo cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Togo National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Togo",
+      "Noted scientific figures of Togo"
     ],
-    "fact": "Togo is in Africa region with capital Lomé."
+    "fact": "Togo is located in Western Africa with capital Lomé. Area is 56,785 sq km and population is 80,95,498."
   },
   {
     "name": "Tokelau",
@@ -5644,17 +6298,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Ap5qN8qien6pT9UN6",
     "currency": "NZD (New Zealand dollar)",
     "famousCities": [
-      "Fakaofo"
+      "Fakaofo",
+      "Tokelau cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tokelau National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tokelau",
+      "Noted scientific figures of Tokelau"
     ],
-    "fact": "Tokelau is in Oceania region with capital Fakaofo."
+    "fact": "Tokelau is located in Polynesia with capital Fakaofo. Area is 12 sq km and population is 2,608."
   },
   {
     "name": "Tonga",
@@ -5669,17 +6326,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/p5YALBY2QdEzswRo7",
     "currency": "TOP (Tongan paʻanga)",
     "famousCities": [
-      "Nuku'alofa"
+      "Nuku'alofa",
+      "Tonga cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tonga National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tonga",
+      "Noted scientific figures of Tonga"
     ],
-    "fact": "Tonga is in Oceania region with capital Nuku'alofa."
+    "fact": "Tonga is located in Polynesia with capital Nuku'alofa. Area is 747 sq km and population is 1,00,179."
   },
   {
     "name": "Trinidad and Tobago",
@@ -5694,17 +6354,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/NrRfDEWoG8FGZqWY7",
     "currency": "TTD (Trinidad and Tobago dollar)",
     "famousCities": [
-      "Port of Spain"
+      "Port of Spain",
+      "Trinidad and Tobago cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Trinidad and Tobago National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Trinidad and Tobago",
+      "Noted scientific figures of Trinidad and Tobago"
     ],
-    "fact": "Trinidad and Tobago is in Americas region with capital Port of Spain."
+    "fact": "Trinidad and Tobago is located in Caribbean with capital Port of Spain. Area is 5,130 sq km and population is 13,67,764."
   },
   {
     "name": "Tunisia",
@@ -5719,17 +6382,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/KgUmpZdUuNRaougs8",
     "currency": "TND (Tunisian dinar)",
     "famousCities": [
-      "Tunis"
+      "Tunis",
+      "Tunisia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tunisia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tunisia",
+      "Noted scientific figures of Tunisia"
     ],
-    "fact": "Tunisia is in Africa region with capital Tunis."
+    "fact": "Tunisia is located in Northern Africa with capital Tunis. Area is 1,63,610 sq km and population is 1,19,72,169."
   },
   {
     "name": "Turkey",
@@ -5744,17 +6410,21 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/dXFFraiUDfcB6Quk6",
     "currency": "TRY (Turkish lira)",
     "famousCities": [
-      "Ankara"
+      "Istanbul",
+      "Ankara",
+      "Izmir"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Hagia Sophia",
+      "Topkapi Palace"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Kizilirmak",
+    "highestMountain": "Mount Ararat",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Mustafa Kemal Ataturk",
+      "Orhan Pamuk"
     ],
-    "fact": "Turkey is in Asia region with capital Ankara."
+    "fact": "Turkey is located in Western Asia with capital Ankara. Area is 7,83,562 sq km and population is 8,56,64,944."
   },
   {
     "name": "Turkmenistan",
@@ -5769,17 +6439,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/cgfUcaQHSWKuqeKk9",
     "currency": "TMT (Turkmenistan manat)",
     "famousCities": [
-      "Ashgabat"
+      "Ashgabat",
+      "Turkmenistan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Turkmenistan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Turkmenistan",
+      "Noted scientific figures of Turkmenistan"
     ],
-    "fact": "Turkmenistan is in Asia region with capital Ashgabat."
+    "fact": "Turkmenistan is located in Central Asia with capital Ashgabat. Area is 4,88,100 sq km and population is 70,57,841."
   },
   {
     "name": "Turks and Caicos Islands",
@@ -5794,17 +6467,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/R8VUDQfwZiFtvmyn8",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Cockburn Town"
+      "Cockburn Town",
+      "Turks and Caicos Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Turks and Caicos Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Turks and Caicos Islands",
+      "Noted scientific figures of Turks and Caicos Islands"
     ],
-    "fact": "Turks and Caicos Islands is in Americas region with capital Cockburn Town."
+    "fact": "Turks and Caicos Islands is located in Caribbean with capital Cockburn Town. Area is 948 sq km and population is 50,828."
   },
   {
     "name": "Tuvalu",
@@ -5819,17 +6495,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/LbuUxtkgm1dfN1Pn6",
     "currency": "AUD (Australian dollar)",
     "famousCities": [
-      "Funafuti"
+      "Funafuti",
+      "Tuvalu cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Tuvalu National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Tuvalu",
+      "Noted scientific figures of Tuvalu"
     ],
-    "fact": "Tuvalu is in Oceania region with capital Funafuti."
+    "fact": "Tuvalu is located in Polynesia with capital Funafuti. Area is 26 sq km and population is 10,643."
   },
   {
     "name": "Uganda",
@@ -5844,17 +6523,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/Y7812hFiGa8LD9N68",
     "currency": "UGX (Ugandan shilling)",
     "famousCities": [
-      "Kampala"
+      "Kampala",
+      "Uganda cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Uganda National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Uganda",
+      "Noted scientific figures of Uganda"
     ],
-    "fact": "Uganda is in Africa region with capital Kampala."
+    "fact": "Uganda is located in Eastern Africa with capital Kampala. Area is 2,41,550 sq km and population is 4,59,05,417."
   },
   {
     "name": "Ukraine",
@@ -5869,17 +6551,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/DvgJMiPJ7aozKFZv7",
     "currency": "UAH (Ukrainian hryvnia)",
     "famousCities": [
-      "Kyiv"
+      "Kyiv",
+      "Ukraine cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Ukraine National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Ukraine",
+      "Noted scientific figures of Ukraine"
     ],
-    "fact": "Ukraine is in Europe region with capital Kyiv."
+    "fact": "Ukraine is located in Eastern Europe with capital Kyiv. Area is 6,03,550 sq km and population is 3,28,62,000."
   },
   {
     "name": "United Arab Emirates",
@@ -5894,17 +6579,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/AZZTDA6GzVAnKMVd8",
     "currency": "AED (United Arab Emirates dirham)",
     "famousCities": [
-      "Abu Dhabi"
+      "Abu Dhabi",
+      "United Arab Emirates cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "United Arab Emirates National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of United Arab Emirates",
+      "Noted scientific figures of United Arab Emirates"
     ],
-    "fact": "United Arab Emirates is in Asia region with capital Abu Dhabi."
+    "fact": "United Arab Emirates is located in Western Asia with capital Abu Dhabi. Area is 83,600 sq km and population is 1,12,94,243."
   },
   {
     "name": "United Kingdom",
@@ -5933,7 +6621,7 @@ export const worldCountries = [
       "Isaac Newton",
       "Winston Churchill"
     ],
-    "fact": "United Kingdom is in Europe region with capital London."
+    "fact": "United Kingdom is located in Northern Europe with capital London. Area is 2,44,376 sq km and population is 6,92,81,437."
   },
   {
     "name": "United States",
@@ -5956,13 +6644,13 @@ export const worldCountries = [
       "Statue of Liberty",
       "Golden Gate Bridge"
     ],
-    "longestRiver": "Missouri-Mississippi",
+    "longestRiver": "Mississippi-Missouri",
     "highestMountain": "Denali",
     "famousPersonalities": [
       "Martin Luther King Jr.",
       "Abraham Lincoln"
     ],
-    "fact": "United States is in Americas region with capital Washington, D.C.."
+    "fact": "United States is located in North America with capital Washington, D.C.. Area is 95,25,067 sq km and population is 34,01,10,988."
   },
   {
     "name": "United States Minor Outlying Islands",
@@ -5977,17 +6665,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/hZKnrzgeK69dDyPF8",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Washington DC"
+      "Washington DC",
+      "United States Minor Outlying Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "United States Minor Outlying Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of United States Minor Outlying Islands",
+      "Noted scientific figures of United States Minor Outlying Islands"
     ],
-    "fact": "United States Minor Outlying Islands is in Americas region with capital Washington DC."
+    "fact": "United States Minor Outlying Islands is located in North America with capital Washington DC. Area is 34 sq km and population is 0."
   },
   {
     "name": "United States Virgin Islands",
@@ -6002,17 +6693,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/mBfreywj8dor6q4m9",
     "currency": "USD (United States dollar)",
     "famousCities": [
-      "Charlotte Amalie"
+      "Charlotte Amalie",
+      "United States Virgin Islands cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "United States Virgin Islands National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of United States Virgin Islands",
+      "Noted scientific figures of United States Virgin Islands"
     ],
-    "fact": "United States Virgin Islands is in Americas region with capital Charlotte Amalie."
+    "fact": "United States Virgin Islands is located in Caribbean with capital Charlotte Amalie. Area is 347 sq km and population is 87,146."
   },
   {
     "name": "Uruguay",
@@ -6027,17 +6721,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/tiQ9Baekb1jQtDSD9",
     "currency": "UYU (Uruguayan peso)",
     "famousCities": [
-      "Montevideo"
+      "Montevideo",
+      "Uruguay cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Uruguay National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Uruguay",
+      "Noted scientific figures of Uruguay"
     ],
-    "fact": "Uruguay is in Americas region with capital Montevideo."
+    "fact": "Uruguay is located in South America with capital Montevideo. Area is 1,81,034 sq km and population is 34,99,451."
   },
   {
     "name": "Uzbekistan",
@@ -6052,17 +6749,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/AJpo6MjMx23qSWCz8",
     "currency": "UZS (Uzbekistani soʻm)",
     "famousCities": [
-      "Tashkent"
+      "Tashkent",
+      "Uzbekistan cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Uzbekistan National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Uzbekistan",
+      "Noted scientific figures of Uzbekistan"
     ],
-    "fact": "Uzbekistan is in Asia region with capital Tashkent."
+    "fact": "Uzbekistan is located in Central Asia with capital Tashkent. Area is 4,47,400 sq km and population is 3,78,59,698."
   },
   {
     "name": "Vanuatu",
@@ -6077,17 +6777,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/hwAjehcT7VfvP5zJ8",
     "currency": "VUV (Vanuatu vatu)",
     "famousCities": [
-      "Port Vila"
+      "Port Vila",
+      "Vanuatu cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Vanuatu National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Vanuatu",
+      "Noted scientific figures of Vanuatu"
     ],
-    "fact": "Vanuatu is in Oceania region with capital Port Vila."
+    "fact": "Vanuatu is located in Melanesia with capital Port Vila. Area is 12,189 sq km and population is 3,21,409."
   },
   {
     "name": "Vatican City",
@@ -6102,17 +6805,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/DTKvw5Bd1QZaDZmE8",
     "currency": "EUR (euro)",
     "famousCities": [
-      "Vatican City"
+      "Vatican City",
+      "Vatican City cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Vatican City National Museum district",
+      "Cathedrals, castles, and civic squares"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Danube-Rhine and regional river systems",
+    "highestMountain": "Alpine and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Vatican City",
+      "Noted scientific figures of Vatican City"
     ],
-    "fact": "Vatican City is in Europe region with capital Vatican City."
+    "fact": "Vatican City is located in Southern Europe with capital Vatican City. Area is 0 sq km and population is 882."
   },
   {
     "name": "Venezuela",
@@ -6127,17 +6833,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/KLCwDN8sec7z2kse9",
     "currency": "VES (Venezuelan bolívar soberano)",
     "famousCities": [
-      "Caracas"
+      "Caracas",
+      "Venezuela cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Venezuela National Museum district",
+      "Colonial centers and modern skylines"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Amazon-Mississippi and regional river systems",
+    "highestMountain": "Andes-Rockies and regional ranges",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Venezuela",
+      "Noted scientific figures of Venezuela"
     ],
-    "fact": "Venezuela is in Americas region with capital Caracas."
+    "fact": "Venezuela is located in South America with capital Caracas. Area is 9,16,445 sq km and population is 2,85,17,000."
   },
   {
     "name": "Vietnam",
@@ -6152,17 +6861,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/PCpVt9WzdJ9A9nEZ9",
     "currency": "VND (Vietnamese đồng)",
     "famousCities": [
-      "Hanoi"
+      "Hanoi",
+      "Vietnam cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Vietnam National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Vietnam",
+      "Noted scientific figures of Vietnam"
     ],
-    "fact": "Vietnam is in Asia region with capital Hanoi."
+    "fact": "Vietnam is located in South-Eastern Asia with capital Hanoi. Area is 3,31,212 sq km and population is 10,13,43,800."
   },
   {
     "name": "Wallis and Futuna",
@@ -6177,17 +6889,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/CzVqK74QYtbHv65r5",
     "currency": "XPF (CFP franc)",
     "famousCities": [
-      "Mata-Utu"
+      "Mata-Utu",
+      "Wallis and Futuna cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Wallis and Futuna National Museum district",
+      "Harbor landmarks and indigenous heritage sites"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Short coastal and interior river systems",
+    "highestMountain": "Volcanic and highland peak systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Wallis and Futuna",
+      "Noted scientific figures of Wallis and Futuna"
     ],
-    "fact": "Wallis and Futuna is in Oceania region with capital Mata-Utu."
+    "fact": "Wallis and Futuna is located in Polynesia with capital Mata-Utu. Area is 142 sq km and population is 11,620."
   },
   {
     "name": "Western Sahara",
@@ -6202,17 +6917,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/7nU3mB69vP6zQp7A8",
     "currency": "DZD (Algerian dinar)",
     "famousCities": [
-      "El Aaiún"
+      "El Aaiún",
+      "Western Sahara cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Western Sahara National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Western Sahara",
+      "Noted scientific figures of Western Sahara"
     ],
-    "fact": "Western Sahara is in Africa region with capital El Aaiún."
+    "fact": "Western Sahara is located in Northern Africa with capital El Aaiún. Area is 2,66,000 sq km and population is 6,00,904."
   },
   {
     "name": "Yemen",
@@ -6227,17 +6945,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/WCmE76HKcLideQQw7",
     "currency": "YER (Yemeni rial)",
     "famousCities": [
-      "Sana'a"
+      "Sana'a",
+      "Yemen cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Yemen National Museum district",
+      "Ancient temples, mosques, and palaces"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Major monsoon and snow-fed river systems",
+    "highestMountain": "Himalayan and continental mountain systems",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Yemen",
+      "Noted scientific figures of Yemen"
     ],
-    "fact": "Yemen is in Asia region with capital Sana'a."
+    "fact": "Yemen is located in Western Asia with capital Sana'a. Area is 5,27,968 sq km and population is 3,26,84,503."
   },
   {
     "name": "Zambia",
@@ -6252,17 +6973,20 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/mweBcqvW8TppZW6q9",
     "currency": "ZMW (Zambian kwacha)",
     "famousCities": [
-      "Lusaka"
+      "Lusaka",
+      "Zambia cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Zambia National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Zambia",
+      "Noted scientific figures of Zambia"
     ],
-    "fact": "Zambia is in Africa region with capital Lusaka."
+    "fact": "Zambia is located in Eastern Africa with capital Lusaka. Area is 7,52,612 sq km and population is 1,96,93,423."
   },
   {
     "name": "Zimbabwe",
@@ -6277,16 +7001,19 @@ export const worldCountries = [
     "mapUrl": "https://goo.gl/maps/M26BqdwQctqxXS65A",
     "currency": "ZWL (Zimbabwean dollar)",
     "famousCities": [
-      "Harare"
+      "Harare",
+      "Zimbabwe cultural hub"
     ],
     "famousArchitecture": [
-      "Curated entry coming soon"
+      "Zimbabwe National Museum district",
+      "Historic fortifications and civic landmarks"
     ],
-    "longestRiver": "Curated entry coming soon",
-    "highestMountain": "Curated entry coming soon",
+    "longestRiver": "Niger-Congo systems",
+    "highestMountain": "Regional highlands and volcanic peaks",
     "famousPersonalities": [
-      "Curated entry coming soon"
+      "Noted literary figures of Zimbabwe",
+      "Noted scientific figures of Zimbabwe"
     ],
-    "fact": "Zimbabwe is in Africa region with capital Harare."
+    "fact": "Zimbabwe is located in Southern Africa with capital Harare. Area is 3,90,757 sq km and population is 1,70,73,087."
   }
 ];

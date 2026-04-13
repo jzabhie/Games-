@@ -1,5 +1,5 @@
-import { districts, normalizeName, states } from "./data.js";
-import { allDistricts } from "./districts-full.js";
+import { normalizeName, states } from "./data.js";
+import { districtsEnriched } from "./districts-enriched.js";
 import { worldCountries } from "./world-data.js";
 
 const MAX_GUESSES = 6;
@@ -25,52 +25,9 @@ const els = {
   knowledgeProvider: document.getElementById("knowledgeProvider")
 };
 
-const stateByName = new Map(states.map((s) => [normalizeName(s.name), s]));
-const districtCountByState = allDistricts.reduce((acc, item) => {
-  const key = normalizeName(item.state);
-  acc[key] = (acc[key] || 0) + 1;
-  return acc;
-}, {});
-
-function pseudoOffset(seedText, scale = 1.2) {
-  const h = hashString(seedText) % 10000;
-  return ((h / 10000) * 2 - 1) * scale;
-}
-
-const detailedDistrictMap = new Map(
-  districts.map((d) => [normalizeName(`${d.name}|${d.state}`), d])
-);
-
-const fullDistrictGameplay = allDistricts.map((d) => {
-  const key = normalizeName(`${d.name}|${d.state}`);
-  const existing = detailedDistrictMap.get(key);
-  if (existing) {
-    return existing;
-  }
-
-  const stateInfo = stateByName.get(normalizeName(d.state));
-  const stateLat = stateInfo?.lat ?? 22.6;
-  const stateLon = stateInfo?.lon ?? 79.5;
-  const stateArea = stateInfo?.areaKm2 ?? 50000;
-  const statePop = stateInfo?.population ?? 20000000;
-  const stateDistricts = districtCountByState[normalizeName(d.state)] || 25;
-
-  return {
-    name: d.name,
-    state: d.state,
-    headquarters: d.name,
-    region: stateInfo?.region ?? "India",
-    areaKm2: Math.max(50, Math.round((stateArea / stateDistricts) * (0.75 + (Math.abs(pseudoOffset(d.name, 0.25)) || 0)))),
-    population: Math.max(30000, Math.round((statePop / stateDistricts) * (0.6 + (Math.abs(pseudoOffset(`${d.name}-pop`, 0.3)) || 0)))),
-    lat: Number((stateLat + pseudoOffset(`${d.name}-lat`, 1.4)).toFixed(2)),
-    lon: Number((stateLon + pseudoOffset(`${d.name}-lon`, 1.4)).toFixed(2)),
-    fact: `${d.name} is an official district in ${d.state}.`
-  };
-});
-
 const modeConfig = {
   state: { items: states, label: "State / UT" },
-  district: { items: fullDistrictGameplay, label: "District" },
+  district: { items: districtsEnriched, label: "District" },
   world: { items: worldCountries, label: "Country" }
 };
 
@@ -311,6 +268,11 @@ function renderTargetInfo() {
       `Region: ${t.region}`,
       `Area: ${formatNumber(t.areaKm2)} sq km`,
       `Population: ${formatNumber(t.population)}`,
+      `Physiography: ${t.physiography}`,
+      `Climate: ${t.climate}`,
+      `River System: ${t.riverSystem}`,
+      `Economy: ${t.economy}`,
+      `Heritage: ${t.heritage}`,
       `Coordinates: ${t.lat}, ${t.lon}`
     ];
   } else {
@@ -435,8 +397,8 @@ function renderKnowledgeProvider() {
       ? [
           { title: "District Context", text: `${t.name} belongs to ${t.state} in ${t.region} India.` },
           { title: "Administrative Core", text: `Headquarters: ${t.headquarters}` },
-          { title: "Scale", text: `Area ${formatNumber(t.areaKm2)} sq km | Pop ${formatNumber(t.population)}` },
-          { title: "Geo Hint", text: `Approx coordinates ${t.lat}, ${t.lon}` }
+          { title: "Geo-Environment", text: `${t.physiography} | ${t.climate}` },
+          { title: "Economy & Heritage", text: `${t.economy} | ${t.heritage}` }
         ]
       : [
           { title: "State Core", text: `${t.name} has capital ${t.capital} in ${t.region}.` },
