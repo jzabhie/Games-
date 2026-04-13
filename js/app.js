@@ -1,10 +1,13 @@
 import { districts, normalizeName, states } from "./data.js";
+import { allDistricts } from "./districts-full.js";
+import { worldCountries } from "./world-data.js";
 
 const MAX_GUESSES = 6;
 
 const els = {
   stateModeBtn: document.getElementById("stateModeBtn"),
   districtModeBtn: document.getElementById("districtModeBtn"),
+  worldModeBtn: document.getElementById("worldModeBtn"),
   guessInput: document.getElementById("guessInput"),
   guessOptions: document.getElementById("guessOptions"),
   guessBtn: document.getElementById("guessBtn"),
@@ -18,12 +21,57 @@ const els = {
   mapStatus: document.getElementById("mapStatus"),
   mapView: document.getElementById("mapView"),
   atlasSearch: document.getElementById("atlasSearch"),
-  atlasGrid: document.getElementById("atlasGrid")
+  atlasGrid: document.getElementById("atlasGrid"),
+  knowledgeProvider: document.getElementById("knowledgeProvider")
 };
+
+const stateByName = new Map(states.map((s) => [normalizeName(s.name), s]));
+const districtCountByState = allDistricts.reduce((acc, item) => {
+  const key = normalizeName(item.state);
+  acc[key] = (acc[key] || 0) + 1;
+  return acc;
+}, {});
+
+function pseudoOffset(seedText, scale = 1.2) {
+  const h = hashString(seedText) % 10000;
+  return ((h / 10000) * 2 - 1) * scale;
+}
+
+const detailedDistrictMap = new Map(
+  districts.map((d) => [normalizeName(`${d.name}|${d.state}`), d])
+);
+
+const fullDistrictGameplay = allDistricts.map((d) => {
+  const key = normalizeName(`${d.name}|${d.state}`);
+  const existing = detailedDistrictMap.get(key);
+  if (existing) {
+    return existing;
+  }
+
+  const stateInfo = stateByName.get(normalizeName(d.state));
+  const stateLat = stateInfo?.lat ?? 22.6;
+  const stateLon = stateInfo?.lon ?? 79.5;
+  const stateArea = stateInfo?.areaKm2 ?? 50000;
+  const statePop = stateInfo?.population ?? 20000000;
+  const stateDistricts = districtCountByState[normalizeName(d.state)] || 25;
+
+  return {
+    name: d.name,
+    state: d.state,
+    headquarters: d.name,
+    region: stateInfo?.region ?? "India",
+    areaKm2: Math.max(50, Math.round((stateArea / stateDistricts) * (0.75 + (Math.abs(pseudoOffset(d.name, 0.25)) || 0)))),
+    population: Math.max(30000, Math.round((statePop / stateDistricts) * (0.6 + (Math.abs(pseudoOffset(`${d.name}-pop`, 0.3)) || 0)))),
+    lat: Number((stateLat + pseudoOffset(`${d.name}-lat`, 1.4)).toFixed(2)),
+    lon: Number((stateLon + pseudoOffset(`${d.name}-lon`, 1.4)).toFixed(2)),
+    fact: `${d.name} is an official district in ${d.state}.`
+  };
+});
 
 const modeConfig = {
   state: { items: states, label: "State / UT" },
-  district: { items: districts, label: "District" }
+  district: { items: fullDistrictGameplay, label: "District" },
+  world: { items: worldCountries, label: "Country" }
 };
 
 const game = {
@@ -37,12 +85,6 @@ let leafletMap;
 let guessLayer;
 let targetLayer;
 
-function dateSeed() {
-  const now = new Date();
-  const key = `${now.getUTCFullYear()}-${now.getUTCMonth() + 1}-${now.getUTCDate()}`;
-  return hashString(key);
-}
-
 function hashString(value) {
   let hash = 2166136261;
   for (let i = 0; i < value.length; i += 1) {
@@ -50,6 +92,41 @@ function hashString(value) {
     hash += (hash << 1) + (hash << 4) + (hash << 7) + (hash << 8) + (hash << 24);
   }
   return Math.abs(hash >>> 0);
+}
+
+function dateSeed() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Kolkata",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+  const year = parts.find((p) => p.type === "year")?.value;
+  const month = parts.find((p) => p.type === "month")?.value;
+  const day = parts.find((p) => p.type === "day")?.value;
+  return hashString(`${year}-${month}-${day}`);
+}
+
+function millisecondsUntilNextIstMidnight() {
+  const parts = new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Kolkata",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  }).formatToParts(new Date());
+  const year = Number(parts.find((p) => p.type === "year")?.value);
+  const month = Number(parts.find((p) => p.type === "month")?.value);
+  const day = Number(parts.find((p) => p.type === "day")?.value);
+  const istOffsetMs = 5.5 * 60 * 60 * 1000;
+  const nextIstMidnightUtcMs = Date.UTC(year, month - 1, day + 1, 0, 0, 0, 0) - istOffsetMs;
+  return Math.max(1000, nextIstMidnightUtcMs - Date.now());
+}
+
+function scheduleDailyRefreshAtIstMidnight() {
+  window.setTimeout(() => {
+    setMode(game.mode, false);
+    scheduleDailyRefreshAtIstMidnight();
+  }, millisecondsUntilNextIstMidnight());
 }
 
 function pickTarget(mode, random = false) {
@@ -63,9 +140,13 @@ function setMode(mode, random = false) {
   game.target = pickTarget(mode, random);
   game.guesses = [];
   game.won = false;
+
   els.stateModeBtn.classList.toggle("active", mode === "state");
   els.districtModeBtn.classList.toggle("active", mode === "district");
+  els.worldModeBtn.classList.toggle("active", mode === "world");
   els.guessInput.value = "";
+  els.guessInput.placeholder = mode === "world" ? "Type a country name" : mode === "district" ? "Type a district name" : "Type a state or UT name";
+
   renderOptions();
   renderBoard();
   renderStatus();
@@ -73,124 +154,13 @@ function setMode(mode, random = false) {
   renderTargetInfo();
   renderMap();
   renderAtlas();
-}
-
-function renderQuestion() {
-  if (!game.target) {
-    return;
-  }
-
-  const clueItems = game.mode === "state"
-    ? [
-        `Region: ${game.target.region}`,
-        `Capital starts with: ${game.target.capital.charAt(0)}`,
-        `Primary language starts with: ${game.target.language.charAt(0)}`,
-        `Area band: ${game.target.areaKm2 > 200000 ? "Very Large" : game.target.areaKm2 > 70000 ? "Medium" : "Compact"}`,
-        `Coastal: ${game.target.coastal ? "Yes" : "No"}`
-      ]
-    : [
-        `Parent state: ${game.target.state}`,
-        `Region: ${game.target.region}`,
-        `Headquarters starts with: ${game.target.headquarters.charAt(0)}`,
-        `Area band: ${game.target.areaKm2 > 8000 ? "Large" : game.target.areaKm2 > 2500 ? "Medium" : "Compact"}`,
-        `Population band: ${game.target.population > 4000000 ? "Very High" : game.target.population > 1500000 ? "High" : "Moderate"}`
-      ];
-
-  const visibleClues = game.won || game.guesses.length >= MAX_GUESSES
-    ? clueItems
-    : clueItems.slice(0, Math.min(2 + Math.floor(game.guesses.length / 2), clueItems.length));
-
-  els.questionTitle.textContent = game.mode === "state" ? "Today's Question: Which State or UT is this?" : "Today's Question: Which District is this?";
-  els.questionText.textContent = game.mode === "state"
-    ? "Use clues, map distance hints, and comparative stats to identify the hidden State or UT."
-    : "Use clues, parent-state hints, and distance direction feedback to identify the hidden district.";
-
-  els.questionHints.innerHTML = visibleClues.map((clue) => `<li>${clue}</li>`).join("");
-}
-
-function initMap() {
-  if (leafletMap || !window.L || !els.mapView) {
-    return;
-  }
-
-  leafletMap = L.map(els.mapView, {
-    center: [22.6, 79.5],
-    zoom: 5,
-    minZoom: 4,
-    maxZoom: 10
-  });
-
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19,
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-  }).addTo(leafletMap);
-
-  guessLayer = L.layerGroup().addTo(leafletMap);
-  targetLayer = L.layerGroup().addTo(leafletMap);
-}
-
-function hasRoundEnded() {
-  return game.won || game.guesses.length >= MAX_GUESSES;
-}
-
-function renderMap() {
-  initMap();
-
-  if (!leafletMap) {
-    if (els.mapStatus) {
-      els.mapStatus.textContent = "Map library failed to load. Check internet access for Leaflet CDN.";
-    }
-    return;
-  }
-
-  guessLayer.clearLayers();
-  targetLayer.clearLayers();
-
-  const bounds = [];
-  game.guesses.forEach((guess, idx) => {
-    const marker = L.circleMarker([guess.item.lat, guess.item.lon], {
-      radius: 7,
-      color: "#0a7fcb",
-      weight: 2,
-      fillColor: "#52b6ff",
-      fillOpacity: 0.9
-    });
-    marker.bindPopup(`<strong>Guess ${idx + 1}:</strong> ${guess.item.name}`);
-    marker.addTo(guessLayer);
-    bounds.push([guess.item.lat, guess.item.lon]);
-  });
-
-  if (hasRoundEnded()) {
-    const targetMarker = L.circleMarker([game.target.lat, game.target.lon], {
-      radius: 8,
-      color: "#8f1d1d",
-      weight: 2,
-      fillColor: "#d43a3a",
-      fillOpacity: 0.95
-    });
-    targetMarker.bindPopup(`<strong>Target:</strong> ${game.target.name}`);
-    targetMarker.addTo(targetLayer);
-    bounds.push([game.target.lat, game.target.lon]);
-  }
-
-  if (bounds.length) {
-    leafletMap.fitBounds(bounds, { padding: [28, 28], maxZoom: 6 });
-  } else {
-    leafletMap.setView([22.6, 79.5], 5);
-  }
-
-  if (els.mapStatus) {
-    els.mapStatus.textContent = hasRoundEnded()
-      ? `Blue markers are your guesses. Red marker is the target: ${game.target.name}.`
-      : "Blue markers are your guesses. The red target marker appears after you solve or finish all guesses.";
-  }
+  renderKnowledgeProvider();
 }
 
 function renderOptions() {
-  const options = modeConfig[game.mode].items
+  els.guessOptions.innerHTML = modeConfig[game.mode].items
     .map((item) => `<option value="${item.name}"></option>`)
     .join("");
-  els.guessOptions.innerHTML = options;
 }
 
 function findItemByName(inputName) {
@@ -199,7 +169,7 @@ function findItemByName(inputName) {
 }
 
 function formatNumber(num) {
-  return new Intl.NumberFormat("en-IN").format(num);
+  return new Intl.NumberFormat("en-IN").format(num || 0);
 }
 
 function haversineKm(lat1, lon1, lat2, lon2) {
@@ -228,82 +198,91 @@ function directionHint(fromLat, fromLon, toLat, toLon) {
 function compareGuess(guess, target) {
   const distance = haversineKm(guess.lat, guess.lon, target.lat, target.lon);
   const direction = directionHint(guess.lat, guess.lon, target.lat, target.lon);
-  const sameRegion = guess.region === target.region;
   const areaHint = guess.areaKm2 === target.areaKm2 ? "equal" : guess.areaKm2 < target.areaKm2 ? "higher" : "lower";
   const popHint = guess.population === target.population ? "equal" : guess.population < target.population ? "higher" : "lower";
 
   return {
     exact: guess.name === target.name,
-    sameRegion,
-    areaHint,
-    popHint,
     distance,
     direction,
+    areaHint,
+    popHint,
+    sameRegion: guess.region === target.region,
     sameState: game.mode === "district" ? guess.state === target.state : null,
-    coastMatch: game.mode === "state" ? guess.coastal === target.coastal : null
+    coastMatch: game.mode === "state" ? guess.coastal === target.coastal : null,
+    capitalMatch: game.mode === "world" ? normalizeName(guess.capital || "") === normalizeName(target.capital || "") : null
   };
 }
 
-function chip(text, tone = "") {
-  const css = tone ? `chip ${tone}` : "chip";
-  return `<span class="${css}">${text}</span>`;
-}
-
 function renderBoard() {
+  const extraHeader = game.mode === "state" ? "Coastal" : game.mode === "district" ? "Parent State" : "Capital Match";
+
   if (!game.guesses.length) {
-    els.guessBoard.innerHTML = "<p>No guesses yet. Start with any name from the suggestion list.</p>";
+    els.guessBoard.innerHTML = `<table class="guess-table"><thead><tr><th>#</th><th>Guess</th><th>Distance</th><th>Direction</th><th>Region</th><th>Area</th><th>Population</th><th>${extraHeader}</th><th>Result</th></tr></thead><tbody><tr><td colspan="9">No guesses yet. Start with any name from the suggestion list.</td></tr></tbody></table>`;
     return;
   }
 
-  els.guessBoard.innerHTML = game.guesses
-    .map(({ item, result }, index) => {
-      const distanceTone = result.distance <= 200 ? "ok" : result.distance <= 700 ? "warn" : "bad";
-      const chips = [
-        chip(`Distance ${result.distance} km ${result.direction}`, distanceTone),
-        chip(`Region ${result.sameRegion ? "match" : "no"}`, result.sameRegion ? "ok" : "bad"),
-        chip(`Area ${result.areaHint}`),
-        chip(`Population ${result.popHint}`)
-      ];
+  const rows = game.guesses.map(({ item, result }, idx) => {
+    const extra = game.mode === "state" ? (result.coastMatch ? "Match" : "No") : game.mode === "district" ? (result.sameState ? "Match" : "No") : (result.capitalMatch ? "Match" : "No");
+    const tone = result.exact ? "row-ok" : result.distance <= 1200 ? "row-warn" : "row-bad";
+    return `<tr><td>${idx + 1}</td><td>${item.name}</td><td>${result.distance} km</td><td>${result.direction}</td><td>${result.sameRegion ? "Match" : "No"}</td><td>${result.areaHint}</td><td>${result.popHint}</td><td>${extra}</td><td class="${tone}">${result.exact ? "Correct" : "Try"}</td></tr>`;
+  }).join("");
 
-      if (game.mode === "state") {
-        chips.push(chip(`Coastal ${result.coastMatch ? "match" : "no"}`, result.coastMatch ? "ok" : "warn"));
-      }
-
-      if (game.mode === "district") {
-        chips.push(chip(`Parent state ${result.sameState ? "match" : "no"}`, result.sameState ? "ok" : "warn"));
-      }
-
-      if (result.exact) {
-        chips.push(chip("Correct", "ok"));
-      }
-
-      return `
-      <article class="guess-card">
-        <div class="guess-top">
-          <p class="guess-name">${index + 1}. ${item.name}</p>
-        </div>
-        <p class="guess-sub">${game.mode === "district" ? `${item.state} district` : `${item.capital} | ${item.language}`}</p>
-        <div class="chips">${chips.join("")}</div>
-      </article>`;
-    })
-    .join("");
+  els.guessBoard.innerHTML = `<table class="guess-table"><thead><tr><th>#</th><th>Guess</th><th>Distance</th><th>Direction</th><th>Region</th><th>Area</th><th>Population</th><th>${extraHeader}</th><th>Result</th></tr></thead><tbody>${rows}</tbody></table>`;
 }
 
 function renderStatus() {
-  const modeLabel = modeConfig[game.mode].label;
+  const label = modeConfig[game.mode].label;
   const left = MAX_GUESSES - game.guesses.length;
-
   if (game.won) {
-    els.status.textContent = `Great job. You solved the ${modeLabel} puzzle in ${game.guesses.length} guesses.`;
+    els.status.textContent = `Excellent. You solved the ${label} puzzle in ${game.guesses.length} guesses.`;
     return;
   }
-
   if (left <= 0) {
     els.status.textContent = `No guesses left. The answer was ${game.target.name}.`;
     return;
   }
+  els.status.textContent = `Mode: ${label}. ${left} guesses left.`;
+}
 
-  els.status.textContent = `Mode: ${modeLabel}. ${left} guesses left.`;
+function renderQuestion() {
+  if (!game.target) return;
+
+  let clues = [];
+  if (game.mode === "state") {
+    clues = [
+      `Region: ${game.target.region}`,
+      `Capital starts with: ${(game.target.capital || "?").charAt(0)}`,
+      `Language starts with: ${(game.target.language || "?").charAt(0)}`,
+      `Coastal: ${game.target.coastal ? "Yes" : "No"}`,
+      `Population band: ${game.target.population > 70000000 ? "High" : "Medium"}`
+    ];
+    els.questionTitle.textContent = "Today's Question: Which State or UT is this?";
+    els.questionText.textContent = "Decode the clues and use direction hints from your guesses.";
+  } else if (game.mode === "district") {
+    clues = [
+      `Parent state: ${game.target.state}`,
+      `Region: ${game.target.region}`,
+      `Headquarters starts with: ${(game.target.headquarters || "?").charAt(0)}`,
+      `Area band: ${game.target.areaKm2 > 5000 ? "Large" : "Medium/Compact"}`,
+      `Population band: ${game.target.population > 2500000 ? "High" : "Medium"}`
+    ];
+    els.questionTitle.textContent = "Today's Question: Which District is this?";
+    els.questionText.textContent = "Use parent-state, area/population, and map-distance clues to identify the district.";
+  } else {
+    clues = [
+      `Region: ${game.target.region}`,
+      `Subregion: ${game.target.subregion}`,
+      `Capital starts with: ${(game.target.capital || "?").charAt(0)}`,
+      `Currency code starts with: ${(game.target.currency || "?").charAt(0)}`,
+      `Population band: ${game.target.population > 100000000 ? "Very High" : game.target.population > 30000000 ? "High" : "Medium/Low"}`
+    ];
+    els.questionTitle.textContent = "Today's Question: Which Country is this?";
+    els.questionText.textContent = "Global mode: use world-region clues plus directional distance from each guess.";
+  }
+
+  const visibleCount = game.won || game.guesses.length >= MAX_GUESSES ? clues.length : Math.min(clues.length, 2 + Math.floor(game.guesses.length / 2));
+  els.questionHints.innerHTML = clues.slice(0, visibleCount).map((c) => `<li>${c}</li>`).join("");
 }
 
 function renderTargetInfo() {
@@ -314,63 +293,178 @@ function renderTargetInfo() {
   }
 
   const t = game.target;
-  const details = game.mode === "state"
-    ? [
-        `Capital: ${t.capital}`,
-        `Region: ${t.region}`,
-        `Area: ${formatNumber(t.areaKm2)} sq km`,
-        `Population: ${formatNumber(t.population)}`,
-        `Literacy: ${t.literacy}%`,
-        `Primary Language: ${t.language}`,
-        `Coastal: ${t.coastal ? "Yes" : "No"}`,
-        `Coordinates: ${t.lat}, ${t.lon}`
-      ]
-    : [
-        `State/UT: ${t.state}`,
-        `Headquarters: ${t.headquarters}`,
-        `Region: ${t.region}`,
-        `Area: ${formatNumber(t.areaKm2)} sq km`,
-        `Population: ${formatNumber(t.population)}`,
-        `Coordinates: ${t.lat}, ${t.lon}`
-      ];
+  let details = [];
+  if (game.mode === "state") {
+    details = [
+      `Capital: ${t.capital}`,
+      `Region: ${t.region}`,
+      `Area: ${formatNumber(t.areaKm2)} sq km`,
+      `Population: ${formatNumber(t.population)}`,
+      `Language: ${t.language}`,
+      `Literacy: ${t.literacy}%`,
+      `Coastal: ${t.coastal ? "Yes" : "No"}`
+    ];
+  } else if (game.mode === "district") {
+    details = [
+      `State: ${t.state}`,
+      `Headquarters: ${t.headquarters}`,
+      `Region: ${t.region}`,
+      `Area: ${formatNumber(t.areaKm2)} sq km`,
+      `Population: ${formatNumber(t.population)}`,
+      `Coordinates: ${t.lat}, ${t.lon}`
+    ];
+  } else {
+    details = [
+      `Capital: ${t.capital}`,
+      `Currency: ${t.currency}`,
+      `Region: ${t.region} / ${t.subregion}`,
+      `Area: ${formatNumber(t.areaKm2)} sq km`,
+      `Population: ${formatNumber(t.population)}`,
+      `Longest River: ${t.longestRiver}`,
+      `Highest Mountain: ${t.highestMountain}`,
+      `Famous Cities: ${(t.famousCities || []).join(", ")}`,
+      `Famous Architecture: ${(t.famousArchitecture || []).join(", ")}`,
+      `Famous Personalities: ${(t.famousPersonalities || []).join(", ")}`
+    ];
+  }
+
+  const title = game.mode === "world" && t.flagPng ? `<img class="flag" src="${t.flagPng}" alt="${t.name} flag"/>${t.name}` : t.name;
 
   els.targetInfo.className = "target-info";
-  els.targetInfo.innerHTML = `
-    <article class="target-card">
-      <h3>${t.name}</h3>
-      <p>${t.fact}</p>
-      <div class="target-grid">
-        ${details.map((d) => `<div class="fact">${d}</div>`).join("")}
-      </div>
-    </article>
-  `;
+  els.targetInfo.innerHTML = `<article class="target-card"><h3>${title}</h3><p>${t.fact}</p><div class="target-grid">${details.map((d) => `<div class="fact">${d}</div>`).join("")}</div></article>`;
 }
 
-function makeGuess() {
-  if (game.won || game.guesses.length >= MAX_GUESSES) {
+function renderMap() {
+  if (!leafletMap && window.L && els.mapView) {
+    leafletMap = L.map(els.mapView, { center: [22.6, 79.5], zoom: 4, minZoom: 2, maxZoom: 12 });
+    L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(leafletMap);
+    guessLayer = L.layerGroup().addTo(leafletMap);
+    targetLayer = L.layerGroup().addTo(leafletMap);
+  }
+
+  if (!leafletMap) {
+    els.mapStatus.textContent = "Map library failed to load.";
     return;
   }
 
-  const input = els.guessInput.value;
-  const item = findItemByName(input);
+  guessLayer.clearLayers();
+  targetLayer.clearLayers();
 
+  const bounds = [];
+  game.guesses.forEach((g, i) => {
+    L.circleMarker([g.item.lat, g.item.lon], {
+      radius: 6,
+      color: "#0a7fcb",
+      weight: 2,
+      fillColor: "#52b6ff",
+      fillOpacity: 0.9
+    }).bindPopup(`<strong>Guess ${i + 1}:</strong> ${g.item.name}`).addTo(guessLayer);
+    bounds.push([g.item.lat, g.item.lon]);
+  });
+
+  if (game.won || game.guesses.length >= MAX_GUESSES) {
+    L.circleMarker([game.target.lat, game.target.lon], {
+      radius: 8,
+      color: "#8f1d1d",
+      weight: 2,
+      fillColor: "#d43a3a",
+      fillOpacity: 0.95
+    }).bindPopup(`<strong>Target:</strong> ${game.target.name}`).addTo(targetLayer);
+    bounds.push([game.target.lat, game.target.lon]);
+  }
+
+  if (bounds.length) {
+    leafletMap.fitBounds(bounds, { padding: [28, 28], maxZoom: game.mode === "world" ? 4 : 6 });
+  } else {
+    leafletMap.setView(game.mode === "world" ? [20, 0] : [22.6, 79.5], game.mode === "world" ? 2 : 4);
+  }
+
+  els.mapStatus.textContent = game.won || game.guesses.length >= MAX_GUESSES
+    ? `Blue markers are guesses. Red marker is target: ${game.target.name}.`
+    : "Blue markers are your guesses. Red target marker appears at end of round.";
+}
+
+function renderAtlas() {
+  const q = normalizeName(els.atlasSearch.value || "");
+  const list = modeConfig[game.mode].items.filter((item) => {
+    const blob = normalizeName([
+      item.name,
+      item.region,
+      item.state || "",
+      item.capital || "",
+      item.headquarters || "",
+      item.currency || "",
+      item.fact,
+      (item.famousCities || []).join(" "),
+      (item.famousArchitecture || []).join(" "),
+      (item.famousPersonalities || []).join(" ")
+    ].join(" "));
+    return blob.includes(q);
+  });
+
+  els.atlasGrid.innerHTML = list.slice(0, 180).map((item) => {
+    const title = game.mode === "world" && item.flagPng ? `<img class="flag" src="${item.flagPng}" alt="${item.name} flag"/>${item.name}` : item.name;
+    const topLine = game.mode === "state"
+      ? `${item.capital} | ${item.language}`
+      : game.mode === "district"
+        ? `${item.state} | HQ ${item.headquarters}`
+        : `${item.capital} | ${item.currency}`;
+    const extra = game.mode === "world"
+      ? `<p>Longest River: ${item.longestRiver}</p><p>Highest Mountain: ${item.highestMountain}</p><p>Famous Cities: ${(item.famousCities || []).join(", ")}</p>`
+      : "";
+
+    return `<article class="atlas-card"><h3>${title}</h3><p>${topLine}</p><p>Region: ${item.region}</p><p>Area: ${formatNumber(item.areaKm2)} sq km</p><p>Population: ${formatNumber(item.population)}</p>${extra}<p>${item.fact}</p></article>`;
+  }).join("");
+}
+
+function renderKnowledgeProvider() {
+  const t = game.target;
+  if (!t || !els.knowledgeProvider) return;
+
+  const cards = game.mode === "world"
+    ? [
+        { title: "Capital & Currency", text: `${t.name}: ${t.capital} | ${t.currency}` },
+        { title: "Natural Markers", text: `River: ${t.longestRiver} | Mountain: ${t.highestMountain}` },
+        { title: "Culture Snapshot", text: `Cities: ${(t.famousCities || []).join(", ")}` },
+        { title: "People", text: `Known personalities: ${(t.famousPersonalities || []).join(", ")}` }
+      ]
+    : game.mode === "district"
+      ? [
+          { title: "District Context", text: `${t.name} belongs to ${t.state} in ${t.region} India.` },
+          { title: "Administrative Core", text: `Headquarters: ${t.headquarters}` },
+          { title: "Scale", text: `Area ${formatNumber(t.areaKm2)} sq km | Pop ${formatNumber(t.population)}` },
+          { title: "Geo Hint", text: `Approx coordinates ${t.lat}, ${t.lon}` }
+        ]
+      : [
+          { title: "State Core", text: `${t.name} has capital ${t.capital} in ${t.region}.` },
+          { title: "Language & Literacy", text: `${t.language} | Literacy ${t.literacy}%` },
+          { title: "Population Scale", text: `Population ${formatNumber(t.population)}` },
+          { title: "Terrain Signal", text: t.coastal ? "Coastal state/UT geography" : "Inland state/UT geography" }
+        ];
+
+  els.knowledgeProvider.innerHTML = cards.map((c) => `<article class="knowledge-card"><h3>${c.title}</h3><p>${c.text}</p></article>`).join("");
+}
+
+function makeGuess() {
+  if (game.won || game.guesses.length >= MAX_GUESSES) return;
+
+  const item = findItemByName(els.guessInput.value);
   if (!item) {
     els.status.textContent = `Name not found in ${modeConfig[game.mode].label} list. Use suggestions.`;
     return;
   }
 
-  const already = game.guesses.some((g) => g.item.name === item.name);
-  if (already) {
+  if (game.guesses.some((g) => g.item.name === item.name)) {
     els.status.textContent = "You already guessed that one. Try another.";
     return;
   }
 
   const result = compareGuess(item, game.target);
   game.guesses.push({ item, result });
-
-  if (result.exact) {
-    game.won = true;
-  }
+  if (result.exact) game.won = true;
 
   els.guessInput.value = "";
   renderBoard();
@@ -378,35 +472,12 @@ function makeGuess() {
   renderQuestion();
   renderTargetInfo();
   renderMap();
-}
-
-function renderAtlas() {
-  const query = normalizeName(els.atlasSearch.value || "");
-  const list = modeConfig[game.mode].items.filter((item) => {
-    const blob = normalizeName(
-      [item.name, item.region, item.state || "", item.capital || "", item.headquarters || "", item.fact].join(" ")
-    );
-    return blob.includes(query);
-  });
-
-  els.atlasGrid.innerHTML = list
-    .map((item) => {
-      const topLine = game.mode === "state" ? `${item.capital} | ${item.language}` : `${item.state} | HQ ${item.headquarters}`;
-      return `
-      <article class="atlas-card">
-        <h3>${item.name}</h3>
-        <p>${topLine}</p>
-        <p>Region: ${item.region}</p>
-        <p>Area: ${formatNumber(item.areaKm2)} sq km</p>
-        <p>Population: ${formatNumber(item.population)}</p>
-        <p>${item.fact}</p>
-      </article>`;
-    })
-    .join("");
+  renderKnowledgeProvider();
 }
 
 els.stateModeBtn.addEventListener("click", () => setMode("state"));
 els.districtModeBtn.addEventListener("click", () => setMode("district"));
+els.worldModeBtn.addEventListener("click", () => setMode("world"));
 els.guessBtn.addEventListener("click", makeGuess);
 els.guessInput.addEventListener("keydown", (event) => {
   if (event.key === "Enter") {
@@ -418,3 +489,4 @@ els.resetBtn.addEventListener("click", () => setMode(game.mode, true));
 els.atlasSearch.addEventListener("input", renderAtlas);
 
 setMode("state");
+scheduleDailyRefreshAtIstMidnight();

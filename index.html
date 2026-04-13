@@ -27,15 +27,23 @@
         <p class="eyebrow">India Geography Game</p>
         <h1>Bharat Atlas Guess</h1>
         <p class="subtitle">
-          A free Wordle-style challenge for India: guess the daily <strong>State/UT</strong> or
-          <strong>District</strong>, then explore rich geography facts.
+          A free Wordle-style challenge for India and the world: guess the daily <strong>State/UT</strong>,
+          <strong>District</strong>, or <strong>Country</strong>, then explore rich geography facts.
         </p>
       </header>
 
+      <section class="panel">
+        <h2 id="questionTitle">Today's Question</h2>
+        <p id="questionText" class="question-text"></p>
+        <ul id="questionHints" class="question-hints"></ul>
+      </section>
+
       <section class="panel controls">
+        <h2>Guess Column</h2>
         <div class="mode-switch" role="tablist" aria-label="Game mode">
           <button id="stateModeBtn" class="mode-btn active" data-mode="state">State / UT Mode</button>
           <button id="districtModeBtn" class="mode-btn" data-mode="district">District Mode</button>
+          <button id="worldModeBtn" class="mode-btn" data-mode="world">World Country Mode</button>
         </div>
 
         <div class="input-wrap">
@@ -52,12 +60,6 @@
       </section>
 
       <section class="panel">
-        <h2 id="questionTitle">Today's Question</h2>
-        <p id="questionText" class="question-text"></p>
-        <ul id="questionHints" class="question-hints"></ul>
-      </section>
-
-      <section class="panel">
         <h2>How hints work</h2>
         <ul class="hint-list">
           <li><strong>Distance & Direction:</strong> How far your guess is from the answer.</li>
@@ -65,7 +67,14 @@
           <li><strong>Area & Population:</strong> Higher or lower compared to target.</li>
           <li><strong>Coast:</strong> Whether it is coastal (for states) or not.</li>
           <li><strong>District mode:</strong> Includes matching parent state hint.</li>
+          <li><strong>World mode:</strong> Includes country-level details (flag, capital, currency, famous places).</li>
         </ul>
+      </section>
+
+      <section class="panel knowledge-pulse">
+        <h2>Knowledge Provider</h2>
+        <p class="question-text">Smart facts based on the current daily target and your recent guesses.</p>
+        <div id="knowledgeProvider" class="knowledge-grid"></div>
       </section>
 
       <section class="panel">
