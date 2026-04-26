@@ -140,7 +140,9 @@ def build_email_tools(cfg: "Config") -> list:
         msg = MIMEMultipart("alternative")
         msg["From"] = cfg.email_address
         msg["To"] = to
-        msg["Subject"] = subject if subject.lower().startswith("re:") else f"Re: {subject}"
+        import re as _re  # noqa: PLC0415
+        clean_subject = _re.sub(r"^(re:\s*)+", "", subject, flags=_re.IGNORECASE).strip()
+        msg["Subject"] = f"Re: {clean_subject}"
         if reply_to_message_id:
             msg["In-Reply-To"] = reply_to_message_id
             msg["References"] = reply_to_message_id

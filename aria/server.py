@@ -112,7 +112,6 @@ async def root():
 # ── Entry point ───────────────────────────────────────────────────────────────
 
 if __name__ == "__main__":
-    load_dotenv()
     cfg_port = int(os.environ.get("ARIA_PORT", "8000"))
     cfg_host = os.environ.get("ARIA_HOST", "0.0.0.0")
     uvicorn.run("aria.server:app", host=cfg_host, port=cfg_port, reload=False)
